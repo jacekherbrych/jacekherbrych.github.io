@@ -1,1 +1,0 @@
-# jacekherbrych.github.io
