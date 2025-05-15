@@ -241,7 +241,6 @@ img.grayscale:hover {
   -webkit-filter: grayscale(0%);
 }
 
-p.allpub {display: block}
-p.allpub {display: nawa2019}
-p.allpub {display: ncn2020}
-p.allpub {display: ncn2024}
+p.headnawa2019 {display: none;}
+p.headncn2020 {display: none;}
+p.headncn2024 {display: none;}
