@@ -28,6 +28,7 @@
    &#9679; <a href="#nav-publications" class="btn">publications</a> 
    &#9679; 
   </div> <!-- navigation -->
+  <div id="scroll-progress"></div>
  </div> <!-- header -->
 <!------------------------------------------------------------------->
  <div class="content">
@@ -193,7 +194,7 @@
      </div>
     </div>
    </p>
-   <p style="margin-bottom:10px; margin-top:10px;">
+   <p style="margin-bottom:10px; margin-top:30px;">
     <b>&#9900; High-performance computing resources:</b>
    </p>
    <p>
@@ -218,7 +219,7 @@
      </div>
     </div>
    </p>
-   <p style="margin-bottom:10px; margin-top:10px;">
+   <p style="margin-bottom:10px; margin-top:30px;">
     <b>&#9900; Past support:</b>
    </p>
    <p>
@@ -268,12 +269,6 @@
    <p class="headnawa2019">
     &#9900; <a onclick="allpub()">See <b>all</b> publications</a><br><br>
     <b>Publications supported by</b> <img src="files/svg/nawa2019.svg"> <font color="#67A437">NAWA Polish Returns PPN/PPO/2018/1/00035</font> <b>(2019-2022)</b></a>:
-   </p>
-   <p class="ncn2024">
-    (preprint) <img src="files/svg/ncn2024.svg"> 
-    <b>Doping S=1 antiferromagnet in one-dimension</b>
-    <br>J. Prokopczyk and <u>J. Herbrych</u>
-    <br><a href="http://arxiv.org/abs/2508.XXXXX" target="blank_">arXiv: cond-mat/2508.XXXXX</a>
    </p>
    <p class="allpub">
     (preprint) 
@@ -730,6 +725,14 @@
    hideTag(vheadnawa2019)
    showTag(vheadncn2024)
   }
+ </script>
+ <script>
+  const scrollProgress = document.getElementById('scroll-progress');
+  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  window.addEventListener('scroll', () => {
+   const scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+   scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
+  });
  </script>
 <!------------------------------------------------------------------->
 </body>
