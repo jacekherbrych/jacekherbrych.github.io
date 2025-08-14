@@ -126,7 +126,6 @@ header[data-parallax=group] {
 }
 
 .preamble {
-  z-index: -1;
   background-color: white;
   box-shadow: 0 0 10vh rgba(0, 0, 0, 0.8);
 }
@@ -148,6 +147,7 @@ header[data-parallax=group] {
   justify-content: center;
   flex-direction: column;
   padding: 10vmin;
+  z-index: 999;
 }
 
 @media (min-width: 60rem) {
