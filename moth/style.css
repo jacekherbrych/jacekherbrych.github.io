@@ -46,6 +46,12 @@ a {
   transform-origin: center;
 }
 
+[data-parallax=none] {
+  position: relative;
+  transform: translateZ(0);
+  z-index: 10;
+}
+
 [data-parallax-speed=speed1] {
   transform: translateZ(-200px) scale(0.8);
   z-index: 1;
