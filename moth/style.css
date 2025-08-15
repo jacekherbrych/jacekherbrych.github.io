@@ -147,6 +147,7 @@ header[data-parallax=group] {
   justify-content: center;
   flex-direction: column;
   padding: 10vmin;
+  position: absolute;
   z-index: 999;
 }
 
