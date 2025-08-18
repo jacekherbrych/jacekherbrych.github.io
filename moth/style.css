@@ -134,16 +134,17 @@ header[data-parallax=group] {
 .preamble {
   background-color: white;
   box-shadow: 0 0 10vh rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 2px #cccccc;
 }
 
 .parallax {
-  color: white;
+  color: black;
   overflow: hidden;
-  background-color: black;
+  background-color: white;
 }
 
 .parallax p {
-  text-shadow: 0 0 2px black;
+  text-shadow: 0 0 2px #cccccc;
 }
 
 .preamble,
@@ -297,26 +298,6 @@ header[data-parallax=group] {
 [data-image=nebula] {
   right: 0vw;
   background-image: url(https://aepicos.com/codepen/images/nebula.png);
-}
-
-.stars,
-.deep-stars {
-  top: -10vh;
-  bottom: -10vh;
-  z-index: -1;
-  background-image: url(https://aepicos.com/codepen/images/blue-star-sky.png);
-}
-
-.stars {
-  background-size: 200%;
-  background-position: center left;
-  opacity: 0.8;
-}
-
-.deep-stars {
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
 }
 
 .plot {
