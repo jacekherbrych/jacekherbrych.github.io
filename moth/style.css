@@ -31,6 +31,12 @@ a {
   perspective-origin: center;
 }
 
+[data-parallax=preamble] {
+  position: relative;
+  transform: translateZ(0);
+  z-index: 10;
+}
+
 [data-parallax=group] {
   height: 500px;
   position: relative;
@@ -44,12 +50,6 @@ a {
   right: 0;
   bottom: 0;
   transform-origin: center;
-}
-
-[data-parallax=none] {
-  position: relative;
-  transform: translateZ(0);
-  z-index: 10;
 }
 
 [data-parallax-speed=speed1] {
@@ -131,24 +131,24 @@ header[data-parallax=group] {
   height: 100vh;
 }
 
-.preamble {
+.uplayer {
   background-color: white;
   box-shadow: 0 0 10vh rgba(0, 0, 0, 0.8);
   text-shadow: 0 0 2px #cccccc;
 }
 
-.parallax {
+.downlayer {
   color: black;
   overflow: hidden;
   background-color: white;
 }
 
-.parallax p {
+.downlayer p {
   text-shadow: 0 0 2px #cccccc;
 }
 
-.preamble,
-.parallax {
+.uplayer,
+.downlayer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,10 +157,10 @@ header[data-parallax=group] {
 }
 
 @media (min-width: 60rem) {
-.preamble,
-.parallax {
-    padding-top: 10vmin;
-    padding-bottom: 10vmin;
+.uplayer,
+.downlayer {
+    padding-top: 4vmin;
+    padding-bottom: 4vmin;
   }
 }
 
@@ -192,7 +192,7 @@ header[data-parallax=group] {
 }
 
 .sd {
-  margin: 0px 0 0 -56px;
+  margin: 0px 0 0 -50px;
   line-height: 80px;
   position: absolute;
   left: 50%;
@@ -245,79 +245,6 @@ header[data-parallax=group] {
  }
 
 /* ------------------------------------ 
-
-[data-parallax-speed=front] {
-  transform: translateZ(90px) scale(0.7);
-  z-index: 1;
-}
-
-[data-parallax-speed=base] {
-  transform: translateZ(300px) scale(1.0);
-  z-index: 4;
-}
-
-[data-image=captain-america-2],
-[data-image=winter-soldier],
-[data-image=scarlet-witch-2],
-[data-image=okoye],
-[data-image=mantis],
-[data-image=nebula] {
-  width: 32vw;
-  height: 48vw;
-  margin-top: 120vw;
-  left: auto;
-  background-size: cover;
-  background-position: center top;
-}
-
-[data-image=captain-america-2] {
-  right: 40vw;
-  background-image: url(https://aepicos.com/codepen/images/captain-america-2.png);
-}
-
-[data-image=winter-soldier] {
-  right: 84vw;
-  background-image: url(https://aepicos.com/codepen/images/winter-soldier.png);
-}
-
-[data-image=scarlet-witch-2] {
-  right: 102vw;
-  background-image: url(https://aepicos.com/codepen/images/scarlet-witch-2.png);
-}
-
-[data-image=okoye] {
-  right: -68vw;
-  background-image: url(https://aepicos.com/codepen/images/okoye.png);
-}
-
-[data-image=mantis] {
-  right: -7vw;
-  background-image: url(https://aepicos.com/codepen/images/mantis.png);
-}
-
-[data-image=nebula] {
-  right: 0vw;
-  background-image: url(https://aepicos.com/codepen/images/nebula.png);
-}
-
-.plot {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  padding-bottom: 120vw;
-  overflow: hidden;
-  background-color: white;
-}
-
-.plot h2 {
-  width: 100%;
-  margin-bottom: 1ex;
-  color: purple;
-}
-
-.plot--content {
-  z-index: -10;
-}
 
 footer {
   min-height: 100vh;
