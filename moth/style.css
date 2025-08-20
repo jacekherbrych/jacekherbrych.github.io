@@ -244,6 +244,14 @@ header[data-parallax=group] {
   animation-play-state: paused;  /* don’t play until triggered */
  }
 
+.foot {
+  padding: 0.5rem;
+  color: white;
+  background-color: #003399;
+  line-height: 1.0;
+  text-align: center;
+}
+
 /* ------------------------------------ 
 
 footer {
