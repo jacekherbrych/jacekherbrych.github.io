@@ -11,6 +11,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #333;
+  text-align: justify;
 }
 
 h2,
@@ -159,7 +160,7 @@ header[data-parallax=group] {
 @media (min-width: 60rem) {
 .uplayer,
 .downlayer {
-    padding-top: 4vmin;
+    padding-top: 1vmin;
     padding-bottom: 4vmin;
   }
 }
