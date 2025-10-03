@@ -50,6 +50,10 @@ a {
   color: black;
 }
 
+b {
+  font-weight: 500;
+}
+
 p {
   text-align: justify;
   margin-left: 20px;
@@ -76,7 +80,6 @@ p {
   position: absolute;
   margin-top: 15px;
   margin-left: 25px;
-  text-align: center;
   word-spacing: 25px;
   letter-spacing: 2px;
   font-weight:550;
