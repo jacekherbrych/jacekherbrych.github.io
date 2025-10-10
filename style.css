@@ -34,12 +34,12 @@ h2 {
 }
 
 h3 {
-  color: black;
+  color: #be1723;
   font-size: 18px;
   text-align: left;
   letter-spacing: 2px;
   font-weight: 500;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #be1723;
   position: relative;
   margin-left: 5px;
   margin-right: 5px;
@@ -47,7 +47,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #be1723;
 }
 
 b {
@@ -62,7 +62,7 @@ p {
 
 .header {
   position: fixed;
-  background: #1A1919;
+  background: #be1723;
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -147,7 +147,7 @@ p {
 }
 
 .footer {
-  background: #1A1919;
+  background: #be1723;
   position: fixed;
   left: 0;
   right: 0;
