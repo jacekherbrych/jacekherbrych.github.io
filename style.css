@@ -34,12 +34,12 @@ h2 {
 }
 
 h3 {
-  color: #be1723;
+  color: #0b5394;
   font-size: 18px;
   text-align: left;
   letter-spacing: 2px;
   font-weight: 500;
-  border-bottom: 2px solid #be1723;
+  border-bottom: 2px solid #0b5394;
   position: relative;
   margin-left: 5px;
   margin-right: 5px;
@@ -47,7 +47,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #be1723;
+  color: #0b5394;
 }
 
 b {
@@ -62,7 +62,7 @@ p {
 
  .headerbackground {
   position: fixed;
-  background: #be1723;
+  background: #0b5394;
   width: 100%;
   height: 145px;
   left: 0;
@@ -72,7 +72,7 @@ p {
 
  .header {
   position: fixed;
-  background: #be1723;
+  background: #0b5394;
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -157,7 +157,7 @@ p {
 }
 
 .footer {
-  background: #be1723;
+  background: #0b5394;
   position: fixed;
   left: 0;
   right: 0;
@@ -183,7 +183,7 @@ p {
 .twotab {
   display: grid;
   align-items: center; 
-  grid-template-columns: 275px auto;
+  grid-template-columns: auto 275px;
   width: 750px;
   margin: 0 auto;
 }
