@@ -10,7 +10,7 @@ body {
   background-color: #ffffff;
 }
 
-:target { scroll-margin-top: 160px; }
+:target { scroll-margin-top: 140px; }
 
 h1 {
   color: white;
@@ -121,16 +121,9 @@ p {
   width: 800px;
 }
 
-.news {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background: #ffffff;
-  border: 2px solid #dd0000;
-}
-
 .info {
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   background: #ffffff;
   border: 2px solid #ffffff;
 }
