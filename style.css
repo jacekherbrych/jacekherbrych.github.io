@@ -76,7 +76,6 @@ p {
   top: 0;
  }
 
-/* Fade scrolling content into the opaque header without blocking links. */
 .headerbackground::after {
   content: "";
   position: absolute;
@@ -258,7 +257,7 @@ img { max-width: 100%; }
     height: auto;
     padding-bottom: 15px;
   }
-  .headertab { grid-template-columns: 1fr; gap: 12px; }
+  .headertab { grid-template-columns: minmax(0, 1fr) 76px; gap: 12px; }
   .navigation {
     position: relative;
     margin: 15px 12px 0;
@@ -294,28 +293,28 @@ img { object-fit: contain; }
 @media (max-width: 800px) {
   body {
     margin: 0;
-    padding: 0 16px 16px;
-    font-size: 16px;
+    padding: 0 14px 14px;
+    font-size: 14px;
     line-height: 1.6;
     overflow-wrap: anywhere;
   }
   .header { padding-bottom: 0; }
-  .headertab { margin-top: 20px; gap: 16px; }
+  .headertab { margin-top: 20px; gap: 12px; }
   .headertab > div:first-child { margin-left: 0 !important; }
   .headertab > div:last-child {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
     margin-left: 0 !important;
     margin-right: auto !important;
   }
   .headertab img {
-    max-height: 56px;
-    width: auto;
+    max-height: 44px;
+    width: 34px;
     padding: 0 !important;
   }
-  h1 { font-size: 22px; line-height: 1.4; margin-bottom: 6px; }
-  h2 { font-size: 16px; line-height: 1.5; letter-spacing: 0; }
+  h1 { font-size: 20px; line-height: 1.4; margin-bottom: 6px; }
+  h2 { font-size: 14px; line-height: 1.5; letter-spacing: 0; }
   h3 {
     margin-inline: 0;
     font-size: 18px;
@@ -325,8 +324,8 @@ img { object-fit: contain; }
   p { margin-inline: 0; text-align: left; }
   .navigation {
     display: flex;
-    flex-wrap: wrap;
-    gap: 4px 8px;
+    flex-wrap: nowrap;
+    gap: 0;
     margin: 16px 0 0;
     /* Hide the decorative text bullets; retain the existing link labels. */
     font-size: 0;
@@ -339,8 +338,9 @@ img { object-fit: contain; }
     justify-content: center;
     box-sizing: border-box;
     min-height: 44px;
-    padding: 4px 10px;
-    font-size: 16px;
+    flex: 1 1 auto;
+    padding: 4px 3px;
+    font-size: clamp(13px, 3.8vw, 16px);
     line-height: 1.5;
   }
   #scroll-progress { display: none; }
@@ -357,6 +357,7 @@ img { object-fit: contain; }
     margin-top: 10px;
   }
   .twotabinfo > div:has(> b) > a img { margin: 0 !important; }
+  .twotab { grid-template-columns: minmax(0, 1fr) minmax(64px, 24%); gap: 12px; }
   .twotab > div:last-child {
     margin-left: 0 !important;
     margin-right: auto !important;
@@ -373,7 +374,3 @@ img { object-fit: contain; }
   .footer { box-sizing: border-box; gap: 4px; }
 }
 
-@media (max-width: 480px) {
-  .navigation { display: block; }
-  .navigation a { width: 50%; }
-}
