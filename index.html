@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
  <title>Jacek Herbrych - Wrocław University of Science and Technology</title>
  <link rel="stylesheet" media="screen" href="style.css">
 </head>
@@ -35,8 +36,8 @@
 <!------------------------------------------------------------------->
   <div class="info" id="nav-info">
    <div class="twotabinfo">
-    <div style="width:250px;">
-     <img src="pic/jacek.jpg" style="height:150px; filter: drop-shadow(2px 2px 4px black);">
+    <div style="">
+     <img src="pic/jacek.jpg" style="height:150px; filter: drop-shadow(2px 2px 4px black);" alt="Jacek Herbrych">
     </div>
     <div>
      I'm a theoretical physicist exploring the fascinating world of quantum many-body systems, particularly the behavior of electrons in low-dimensional, strongly correlated setups. Since 2019, I have been working at the Institute of Theoretical Physics, Wrocław University of Science and Technology (Poland). In the past, I worked in Slovenia, Greece, and the USA. In my work, I combine analytical approaches with advanced numerical methods to investigate phenomena such as quantum transport and dynamics, emergent magnetic properties, and unconventional superconductivity.
@@ -48,10 +49,10 @@
     <div>
      <b>My research has been supported by:</b><br>
      <a href="#nav-funding">
-      <img src="files/nawa.png" style="margin-top: 5px; margin-left: 0px; height:50px; filter: drop-shadow(1px 1px 3px grey);">
-      <img src="files/ncn.png"  style="margin-top: 5px; margin-left: 10px; height:50px; filter: drop-shadow(1px 1px 3px grey);">
-      <img src="files/wcss.png" style="margin-top: 5px; margin-left: 0px; height:50px; filter: drop-shadow(1px 1px 3px grey);">
-      <img src="files/jsps.png" style="margin-top: 5px; margin-left: 10px; height:50px; filter: drop-shadow(1px 1px 3px grey);">
+      <img src="files/nawa.png" style="margin-top: 5px; margin-left: 0px; height:50px; filter: drop-shadow(1px 1px 3px grey);" alt="Polish National Agency for Academic Exchange">
+      <img src="files/ncn.png"  style="margin-top: 5px; margin-left: 10px; height:50px; filter: drop-shadow(1px 1px 3px grey);" alt="Polish National Science Centre">
+      <img src="files/wcss.png" style="margin-top: 5px; margin-left: 0px; height:50px; filter: drop-shadow(1px 1px 3px grey);" alt="Wrocław Centre for Networking and Supercomputing">
+      <img src="files/jsps.png" style="margin-top: 5px; margin-left: 10px; height:50px; filter: drop-shadow(1px 1px 3px grey);" alt="Japan Society for the Promotion of Science">
      </a>
     </div>
    </div>
@@ -94,7 +95,8 @@
     <br>&emsp;&#9900; (diploma) Szymon Morys
     <br>&emsp;&#9900; (diploma) Piotr Złotowski
     <span style="vertical-align:-35%;"> </span>
-    <br>&emsp;&#9900; <b><u onclick="showhidebut();">Past members</u></b>
+    <br>&emsp;&#9900; <button type="button" class="past-toggle" aria-controls="pastlist" aria-expanded="false" onclick="showhidebut();">Past members</button>
+   </p>
     <div id="pastlist" style="display:none;margin-left: 20px;">
      &emsp;&#9900; (2023 phd) <a href="http://www.maksymiliansroda.pl" target="_blank">Maksymilian Środa</a>
      <span style="vertical-align:-35%;"> </span>
@@ -115,8 +117,6 @@
      <br>&emsp;&#9900; (2021 diploma) Bartosz Grygielski
      <br>&emsp;&#9900; (2019 diploma) Łukasz Iwanek
     </div>
-   </p>
-   <div class="divend"></div>
   </div> <!-- info -->
 <!------------------------------------------------------------------->
   <div class="research" id="nav-research">
@@ -128,23 +128,23 @@
    <p>
     Our group investigates (primarily using numerical techniques) static and dynamic properties of multi-orbital systems with the emphasis on their magnetic properties and the role of Hund’s interaction. One can expect that the competition between Hund's coupling and Coulomb interaction can lead to a novel type of frustrated magnetism. Furthermore, a nontrivial magnetic order within OSMP could lead to nontrivial topological effects.
    </p>
-   <div class="threetab" style="width:750px;">
-    <div style="width:250px;">
-     <a href="https://www.nature.com/articles/s41467-021-23261-2" target="_blank"><img src="files/pubpic/pub11.jpg" style="width:240px;"></a>
+   <div class="threetab" style="">
+    <div style="">
+     <a href="https://www.nature.com/articles/s41467-021-23261-2" target="_blank"><img src="files/pubpic/pub11.jpg" style="width:240px;" alt="Research figure — open the associated publication"></a>
     </div>
-    <div style="width:250px;">
-     <a href="https://www.nature.com/articles/s41467-023-44135-9" target="_blank"><img src="files/pubpic/pub12.jpg" style="width:240px;"></a>
+    <div style="">
+     <a href="https://www.nature.com/articles/s41467-023-44135-9" target="_blank"><img src="files/pubpic/pub12.jpg" style="width:240px;" alt="Research figure — open the associated publication"></a>
     </div>
-    <div style="width:250px;">
-     <a href="https://iopscience.iop.org/article/10.1088/1361-6633/add6d4" target="_blank"><img src="files/pubpic/pub13.jpg" style="width:240px;"></a>
+    <div style="">
+     <a href="https://iopscience.iop.org/article/10.1088/1361-6633/add6d4" target="_blank"><img src="files/pubpic/pub13.jpg" style="width:240px;" alt="Research figure — open the associated publication"></a>
     </div>
-    <div style="width:250px; text-align:center;">
+    <div style=" text-align:center;">
      <a href="https://www.nature.com/articles/s41467-021-23261-2" target="_blank">Nat. Commun. <b>12</b>, 2955 (2021)</a>
     </div>
-    <div style="width:250px; text-align:center;">
+    <div style=" text-align:center;">
      <a href="https://www.nature.com/articles/s41467-023-44135-9" target="_blank">Nat. Commun. <b>14</b>, 8524 (2023)</a>
     </div>
-    <div style="width:250px; text-align:center;">
+    <div style=" text-align:center;">
      <a href="https://iopscience.iop.org/article/10.1088/1361-6633/add6d4" target="_blank">Rep. Prog. Phys. <b>88</b>, 068001 (2025)</a>
     </div>
    </div>
@@ -155,23 +155,23 @@
    <p>
     We are interested in various transport properties of the low-dimensional quantum system. Our study focuses, among others, on the effects of the integrability of the model, many-body localization, the physics of random interaction exchange, non-equilibrium properties, and linear response answer of the systems to experimentally relevant perturbations.
    </p>
-   <div class="threetab" style="width:750px;">
-    <div style="width:250px;">
-     <a href="http://link.aps.org/doi/10.1103/PhysRevB.105.L081105" target="_blank"><img src="files/pubpic/pub21.jpg" style="width:250px;"></a>
+   <div class="threetab" style="">
+    <div style="">
+     <a href="http://link.aps.org/doi/10.1103/PhysRevB.105.L081105" target="_blank"><img src="files/pubpic/pub21.jpg" style="width:250px;" alt="Research figure — open the associated publication"></a>
     </div>
-    <div style="width:250px;">
-     <a href="http://link.aps.org/doi/10.1103/PhysRevB.107.045134" target="_blank"><img src="files/pubpic/pub22.jpg" style="width:250px;"></a>
+    <div style="">
+     <a href="http://link.aps.org/doi/10.1103/PhysRevB.107.045134" target="_blank"><img src="files/pubpic/pub22.jpg" style="width:250px;" alt="Research figure — open the associated publication"></a>
     </div>
-    <div style="width:250px;">
-     <a href="https://doi.org/10.1103/fysk-w1vs" target="_blank"><img src="files/pubpic/pub23.jpg" style="width:180px;"></a>
+    <div style="">
+     <a href="https://doi.org/10.1103/fysk-w1vs" target="_blank"><img src="files/pubpic/pub23.jpg" style="width:180px;" alt="Research figure — open the associated publication"></a>
     </div>
-    <div style="width:250px; text-align:center;">
+    <div style=" text-align:center;">
      <a href="http://link.aps.org/doi/10.1103/PhysRevB.105.L081105" target="_blank">Phys. Rev. B <b>105</b>, L081105 (2021)</a>
     </div>
-    <div style="width:250px; text-align:center;">
+    <div style=" text-align:center;">
      <a href="http://link.aps.org/doi/10.1103/PhysRevB.107.045134" target="_blank">Phys. Rev. B <b>107</b>, 045134 (2022)</a>
     </div>
-    <div style="width:250px; text-align:center;">
+    <div style=" text-align:center;">
      <a href="https://doi.org/10.1103/fysk-w1vs" target="_blank">Phys. Rev. B <b>112</b>, 195116 (2025)</a>
     </div>
    </div>
@@ -181,7 +181,6 @@
    </p>
 <!--   <p>
    </p>-->
-   <div class="divend"></div>
   </div> <!-- research -->
 <!------------------------------------------------------------------>
   <div class="funding" id="nav-funding">
@@ -193,11 +192,11 @@
      <br>Visiting professor, VIII.2026 - IX.2026
      <br>Tokyo University of Science, Japan
     </div>
-    <div style="width:250px; margin-left: auto; margin-right: 0; margin-top: 5px;">
-     <a href="https://www.jsps.go.jp/english/" target="_blank"><img src="files/jsps.png" style="height:80px; filter: drop-shadow(1px 1px 3px grey);"></a>
+    <div style=" margin-left: auto; margin-right: 0; margin-top: 5px;">
+     <a href="https://www.jsps.go.jp/english/" target="_blank"><img src="files/jsps.png" style="height:80px; filter: drop-shadow(1px 1px 3px grey);" alt="Japan Society for the Promotion of Science"></a>
     </div>
    </div>
-   <div class="twotab" style="margin-bottom:10px; margin-top:10px; background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <div class="twotab" style="margin-bottom:10px; margin-top:10px; background: #f5f5f5;">
     <div>
      <a href="https://ncn.gov.pl/?language=en" target="_blank" style="font-weight: 500;">Polish National Science Centre (NCN)</a>
      <br><a href="https://projekty.ncn.gov.pl/en/index.php?projekt_id=595177" target="_blank" style="font-weight: 500;">SONATA BIS 13 2023/50/E/ST3/00033</a>
@@ -205,8 +204,8 @@
      <br>Principal Investigator, 2024 - 2029
      <br>Wrocław University of Science and Technology (Poland)
     </div>
-    <div style="width:250px; margin-left: auto; margin-right: 0;">
-     <a href="https://ncn.gov.pl/?language=en" target="_blank"><img src="files/ncn.png" style="height:70px; filter: drop-shadow(1px 1px 3px grey);"></a>
+    <div style=" margin-left: auto; margin-right: 0;">
+     <a href="https://ncn.gov.pl/?language=en" target="_blank"><img src="files/ncn.png" style="height:70px; filter: drop-shadow(1px 1px 3px grey);" alt="Polish National Science Centre"></a>
     </div>
    </div>
    <div class="twotab" style="margin-bottom:10px; margin-top:10px;">
@@ -216,8 +215,8 @@
      <br>Wrocław University of Science and Technology (Poland)
      <br>
     </div>
-    <div style="width:250px; margin-left: auto; margin-right: 0; margin-top: 5px;">
-     <a href="https://www.wcss.pl/en/" target="_blank"><img src="files/wcss.png" style="width:210px; filter: drop-shadow(1px 1px 3px grey);"></a>
+    <div style=" margin-left: auto; margin-right: 0; margin-top: 5px;">
+     <a href="https://www.wcss.pl/en/" target="_blank"><img src="files/wcss.png" style="width:210px; filter: drop-shadow(1px 1px 3px grey);" alt="Wrocław Centre for Networking and Supercomputing"></a>
     </div>
    </div>
    <p style="margin-bottom:10px; margin-top:40px;">
@@ -229,11 +228,11 @@
      <br>High-performance computing resources, 2019-2025
      <br>University of Tennessee (Knoxville, USA)
     </div>
-    <div style="width:250px; margin-left: auto; margin-right: 0; margin-top: 5px;">
-     <a href="https://oit.utk.edu/hpsc/" target="_blank"><img class="grayscale" src="files/utk.png" style="width:220px;"></a>
+    <div style=" margin-left: auto; margin-right: 0; margin-top: 5px;">
+     <a href="https://oit.utk.edu/hpsc/" target="_blank"><img class="grayscale" src="files/utk.png" style="width:220px;" alt="University of Tennessee"></a>
     </div>
    </div>
-   <div class="twotab" style="margin-bottom:10px; margin-top:10px; background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <div class="twotab" style="margin-bottom:10px; margin-top:10px; background: #f5f5f5;">
     <div>
      <a href="https://ncn.gov.pl/?language=en" target="_blank" style="font-weight: 500;">Polish National Science Centre (NCN)</a>
      <br><a href="https://projekty.ncn.gov.pl/en/index.php?projekt_id=462377" target="_blank" style="font-weight: 500;">OPUS 18 2019/35/B/ST3/01207</a>
@@ -241,8 +240,8 @@
      <br>Principal Investigator, 2020 - 2023
      <br>Wrocław University of Science and Technology (Poland)
     </div>
-    <div style="width:250px; margin-left: auto; margin-right: 0;">
-     <a href="https://ncn.gov.pl/?language=en" target="_blank"><img class="grayscale" src="files/ncn.png" style="height:70px;"></a>
+    <div style=" margin-left: auto; margin-right: 0;">
+     <a href="https://ncn.gov.pl/?language=en" target="_blank"><img class="grayscale" src="files/ncn.png" style="height:70px;" alt="Polish National Science Centre"></a>
     </div>
    </div>
    <div class="twotab" style="margin-bottom:10px; margin-top:10px;">
@@ -252,46 +251,46 @@
      <br>Principal Investigator, 2019 - 2022
      <br>Wrocław University of Science and Technology (Poland)
     </div>
-    <div style="width:250px; margin-left: auto; margin-right: 0;">
-     <a href="https://nawa.gov.pl/en/" target="_blank"><img class="grayscale" src="files/nawa.png" style="height:85px;"></a>
+    <div style=" margin-left: auto; margin-right: 0;">
+     <a href="https://nawa.gov.pl/en/" target="_blank"><img class="grayscale" src="files/nawa.png" style="height:85px;" alt="Polish National Agency for Academic Exchange"></a>
     </div>
    </div>
-   <div class="divend"></div>
   </div> <!-- funding -->
 <!------------------------------------------------------------------->
   <div class="publications" id="nav-publications">
    <h3>&emsp;&#9702; publications </h3>
    <p class="headallpub">
     See <b>only</b> publications supported by:
-    <br>&emsp;&#9900; <a href="#nav-publications" onclick="jsps2026()"><img src="files/svg/jsps2026.svg" style="height:11px;"> <b>JSPS Invitational Fellowships for Research in Japan</b> S26017 (2026)</a>
-    <br>&emsp;&#9900; <a href="#nav-publications" onclick="ncn2024()"><img src="files/svg/ncn2024.svg" style="height:11px;"> <b>NCN SONATA BIS 13</b> 2023/50/E/ST3/00033 (2024-2029)</a> 
-    <br>&emsp;&#9900; <a href="#nav-publications" onclick="ncn2020()"><img src="files/svg/ncn2020.svg" style="height:11px;"> <b>NCN OPUS 18</b> 2019/35/B/ST3/01207 (2020-2023)</a> 
-    <br>&emsp;&#9900; <a href="#nav-publications" onclick="nawa2019()"><img src="files/svg/nawa2019.svg" style="height:11px;"> <b>NAWA Polish Returns</b> PPN/PPO/2018/1/00035 (2019-2022)</a> 
+    <br>&emsp;&#9900; <a href="#nav-publications" onclick="jsps2026()"><img src="files/svg/jsps2026.svg" style="height:11px;" alt=""> <b>JSPS Invitational Fellowships for Research in Japan</b> S26017 (2026)</a>
+    <br>&emsp;&#9900; <a href="#nav-publications" onclick="ncn2024()"><img src="files/svg/ncn2024.svg" style="height:11px;" alt=""> <b>NCN SONATA BIS 13</b> 2023/50/E/ST3/00033 (2024-2029)</a> 
+    <br>&emsp;&#9900; <a href="#nav-publications" onclick="ncn2020()"><img src="files/svg/ncn2020.svg" style="height:11px;" alt=""> <b>NCN OPUS 18</b> 2019/35/B/ST3/01207 (2020-2023)</a> 
+    <br>&emsp;&#9900; <a href="#nav-publications" onclick="nawa2019()"><img src="files/svg/nawa2019.svg" style="height:11px;" alt=""> <b>NAWA Polish Returns</b> PPN/PPO/2018/1/00035 (2019-2022)</a> 
    </p>
    <p class="headjsps2026">
-    &#9900; <a onclick="allpub()">See <b>all</b> publications</a><br><br>
-    Publications supported by <img src="files/svg/jsps2026.svg" style="height:11px;"> <b>JSPS Invitational Fellowships for Research in Japan</b> (2026):
+    &#9900; <a onclick="allpub()"><b>See all publications</b></a>
+    <br><br>
+    Publications supported by <img src="files/svg/jsps2026.svg" style="height:11px;" alt=""> <b>JSPS Invitational Fellowships for Research in Japan</b> (2026):
    </p>
    <p class="headncn2024">
-    &#9900; <a onclick="allpub()">See <b>all</b> publications</a><br><br>
-    Publications supported by <img src="files/svg/ncn2024.svg" style="height:11px;"> <b>NCN SONATA BIS 13</b> 2023/50/E/ST3/00033 (2024-2029):
+    &#9900; <a onclick="allpub()"><b>See all publications</b></a><br><br>
+    Publications supported by <img src="files/svg/ncn2024.svg" style="height:11px;" alt=""> <b>NCN SONATA BIS 13</b> 2023/50/E/ST3/00033 (2024-2029):
    </p>
    <p class="headncn2020">
-    &#9900; <a onclick="allpub()">See <b>all</b> publications</a><br><br>
-    Publications supported by <img src="files/svg/ncn2020.svg" style="height:11px;"> <b>NCN OPUS 18</b> 2019/35/B/ST3/01207 (2020-2023):
+    &#9900; <a onclick="allpub()"><b>See all publications</b></a><br><br>
+    Publications supported by <img src="files/svg/ncn2020.svg" style="height:11px;" alt=""> <b>NCN OPUS 18</b> 2019/35/B/ST3/01207 (2020-2023):
    </p>
    <p class="headnawa2019">
-    &#9900; <a onclick="allpub()">See <b>all</b> publications</a><br><br>
-    Publications supported by <img src="files/svg/nawa2019.svg" style="height:11px;"> <b>NAWA Polish Returns</b> PPN/PPO/2018/1/00035 (2019-2022):
+    &#9900; <a onclick="allpub()"><b>See all publications</b></a><br><br>
+    Publications supported by <img src="files/svg/nawa2019.svg" style="height:11px;" alt=""> <b>NAWA Polish Returns</b> PPN/PPO/2018/1/00035 (2019-2022):
    </p>
    <p class="ncn2024">
-    (63) <img src="files/svg/ncn2024.svg" style="height:11px;"> 
+    (63) <img src="files/svg/ncn2024.svg" style="height:11px;" alt=""> 
     <b>Electronic correlations driving Chirality-Induced Spin Selectivity</b>
     <br><u>J. Herbrych</u> and M. Daghofer
     <br><a href="http://arxiv.org/abs/2605.30240" target="_blank">arXiv: cond-mat/2605.30240</a>
    </p>
-   <p class="ncn2024" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (62) <img src="files/svg/ncn2024.svg" style="height:11px;"> 
+   <p class="ncn2024" style="background: #f5f5f5;">
+    (62) <img src="files/svg/ncn2024.svg" style="height:11px;" alt=""> 
     <b>Graph-Theoretic Detection of Hilbert Space Fragmentation</b>
     <br>A. Rutkowski, M. Mierzejewski and <u>J. Herbrych</u>
     <br><a href="http://arxiv.org/abs/2605.17951" target="_blank">arXiv: cond-mat/2605.17951</a>
@@ -302,8 +301,8 @@
     <br>M. Kempa, M. Kraft, S. Nandy, <u>J. Herbrych</u>, J. Wang, J. Gemmer, and R. Steinigeweg
     <br><a href="https://doi.org/10.1103/95pc-s3b3" target="_blank">Phys. Rev. B <b>113</b>, 064431 (2026)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2507.16528" target="_blank">arXiv: cond-mat/2507.16528</a>
    </p>
-   <p class="ncn2024" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (60) <img src="files/svg/ncn2024.svg" style="height:11px;"> 
+   <p class="ncn2024" style="background: #f5f5f5;">
+    (60) <img src="files/svg/ncn2024.svg" style="height:11px;" alt=""> 
     <b>Doping S=1 antiferromagnet in one-dimension</b>
     <br>J. Prokopczyk and <u>J. Herbrych</u>
     <br><a href="https://doi.org/10.1103/kzwg-8853" target="_blank">Phys. Rev. B <b>113</b>, 024424 (2026)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2508.07712" target="_blank">arXiv: cond-mat/2508.07712</a>
@@ -314,32 +313,32 @@
     <br>M. Lisiecki, J. Bonča, M. Mierzejewski, <u>J. Herbrych</u>, and P. Łydżba
     <br><a href="https://doi.org/10.1103/fysk-w1vs" target="_blank">Phys. Rev. B <b>112</b>, 195116 (2025)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2505.09346" target="_blank">arXiv: cond-mat/2505.09346</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (58) 
     <b>Finding local integrals of motion in quantum lattice models in the thermodynamic limit</b>
     <br>J. Pawłowski, <u>J. Herbrych</u>, and M. Mierzejewski
     <br><a href="https://doi.org/10.1103/brst-wp36" target="_blank">Phys. Rev. B <b>112</b>, 155130 (2025)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2505.05882" target="_blank">arXiv: cond-mat/2505.05882</a>
    </p>
    <p class="ncn2024">
-    (57) <img src="files/svg/ncn2024.svg" style="height:11px;">
+    (57) <img src="files/svg/ncn2024.svg" style="height:11px;" alt="">
     <b>Evidence for valence-bond pairing in a one-dimensional two-orbital system</b>
     <br>M. Mierzejewski, E. Dagotto, and <u>J. Herbrych</u>
     <br><a href="https://doi.org/10.1103/qyqw-yy3j" target="_blank">Phys. Rev. B <b>112</b>, L041107 (2025)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2411.03771" target="_blank">arXiv: cond-mat/2411.03771</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (56) 
     <b>Spin and energy diffusion vs. subdiffusion in disordered spin chains</b>
     <br><u>J. Herbrych</u> and P. Prelovšek
     <br><a href="https://doi.org/10.1103/kv2f-m8vk" target="_blank">Phys. Rev. B <b>112</b>, 045108 (2025)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2504.15705" target="_blank">arXiv: cond-mat/2504.15705</a>
    </p>
    <p class="ncn2024">
-    (55) <img src="files/svg/ncn2024.svg" style="height:11px;">
+    (55) <img src="files/svg/ncn2024.svg" style="height:11px;" alt="">
     <b>Magnon damping and mode softening in quantum double-exchange ferromagnets</b>
     <br>A. Moreo, E. Dagotto, G. Alvarez, T. Tohyama, M. Mierzejewski, and <u>J. Herbrych</u>
     <br><a href="https://iopscience.iop.org/article/10.1088/1361-6633/add6d4" target="_blank">Rep. Prog. Phys. <b>88</b>, 068001 (2025)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2503.01277" target="_blank">arXiv: cond-mat/2503.01277</a>
     <br>Featured in <a href="https://physicsworld.com/a/new-mechanism-explains-behaviour-of-materials-exhibiting-giant-magnetoresistance/" target="_blank">Physics World</a> and <a href="https://physicsworld.com/a/quantum-ferromagnets-without-the-usual-tricks/" target="_blank">Progress In series</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (54) 
     <b>Luther-Emery liquid and dominant singlet superconductivity in the two-orbital Hubbard chain</b>
     <br>P. Laurell, <u>J. Herbrych</u>, G. Alvarez, and E. Dagotto
@@ -351,7 +350,7 @@
     <br>M. Kraft, J. Richter, F. Jin, S. Nandy, Z. Lenarčič, <u>J. Herbrych</u>, K. Michielsen, H. De Raedt, J. Gemmer, and R. Steinigeweg
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevResearch.6.023251" target="_blank">Phys. Rev. Res. <b>6</b>, 023251 (2024)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2402.18177" target="_blank">arXiv: cond-mat/2402.18177</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (52) 
     <b>Long-living prethermalization in nearly integrable spin ladders</b>
     <br>J. Pawłowski, M. Panfil, <u>J. Herbrych</u>, and M. Mierzejewski
@@ -363,8 +362,8 @@
     <br>S. Nandy, <u>J. Herbrych</u>, Z. Lenarčič, A. Głódkowski, P. Prelovšek, and M. Mierzejewski
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.109.115120" target="_blank">Phys. Rev. B <b>109</b>, 115120 (2024)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2310.01862" target="_blank">arXiv: cond-mat/2310.01862</a>
    </p>
-   <p class="ncn2020" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (50) <img src="files/svg/ncn2020.svg" style="height:11px;">
+   <p class="ncn2020" style="background: #f5f5f5;">
+    (50) <img src="files/svg/ncn2020.svg" style="height:11px;" alt="">
     <b>Transition to the Haldane phase driven by electron-electron correlations</b>
     <br>A. Jażdżewska, M. Mierzejewski, M. Środa, A. Nocera, G. Alvarez, E. Dagotto, and <u>J. Herbrych</u>
     <br><a href="https://www.nature.com/articles/s41467-023-44135-9" target="_blank">Nat. Commun. <b>14</b>, 8524 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2304.11154" target="_blank">arXiv: cond-mat/2304.11154</a>
@@ -375,7 +374,7 @@
     <br>T. Heitmann, J. Richter, F. Jin, S. Nandy, Z. Lenarčič, <u>J. Herbrych</u>, K. Michielsen, H. De Raedt, J. Gemmer, and R. Steinigeweg
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.108.L201119" target="_blank">Phys. Rev. B <b>108</b>, L201119 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2303.00430" target="_blank">arXiv: cond-mat/2303.00430</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (48) 
     <b>Spatially-anisotropic S=1 square-lattice antiferromagnet with single-ion anisotropy realized with a Ni(II) pyrazine-n,n'-dioxide (pyzdo) coordination polymer</b>
     <br>J. L. Manson, D. M. Pajerowski, J. M. Donovan, B. Twamley, P. A. Goddard, R. Johnson, J. Bendix, J. Singleton, T. Lancaster, S. J. Blundell, <u>J. Herbrych</u>, P. J. Baker, A. J. Steele, F. L. Pratt, I. Franke-Chaudet, R. D. McDonald, A. Plonczak, and P. Manuel
@@ -387,140 +386,140 @@
     <br>S. Nandy, Z. Lenarčič, E. Ilievski, M. Mierzejewski, <u>J. Herbrych</u>, P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.108.L081115" target="_blank">Phys. Rev. B <b>108</b>, L081115 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2211.17181" target="_blank">arXiv: cond-mat/2211.17181</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (46) 
     <b>Real-time broadening of bath-induced density profiles from closed-system correlation functions</b>
     <br>T. Heitmann, J. Richter, <u>J. Herbrych</u>, J. Gemmer, and R. Steinigeweg
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevE.108.024102" target="_blank">Phys. Rev. E <b>108</b>, 024102 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2210.10528" target="_blank">arXiv: cond-mat/2210.10528</a>
    </p>        
    <p class="nawa2019 ncn2020">
-    (45) <img src="files/svg/nawa2019.svg" style="height:11px;"><img src="files/svg/ncn2020.svg" style="height:11px;">
+    (45) <img src="files/svg/nawa2019.svg" style="height:11px;" alt=""><img src="files/svg/ncn2020.svg" style="height:11px;" alt="">
     <b>Hund bands in spectra of multiorbital systems</b>
     <br>M. Środa, J. Mravlje, G. Alvarez, E. Dagotto, and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.108.L081102" target="_blank">Phys. Rev. B <b>108</b>, L081102 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2210.11209" target="_blank">arXiv: cond-mat/2210.11209</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (44) 
     <b>Slow diffusion and Thouless localization criterion in modulated spin chains</b>
     <br>M. Mierzejewski, <u>J. Herbrych</u>, P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.108.035106" target="_blank">Phys. Rev. B <b>108</b>, 035106 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2302.03325" target="_blank">arXiv: cond-mat/2302.03325</a>
    </p>
    <p class="nawa2019 ncn2020">
-    (43) <img src="files/svg/nawa2019.svg" style="height:11px;"><img src="files/svg/ncn2020.svg" style="height:11px;">
+    (43) <img src="files/svg/nawa2019.svg" style="height:11px;" alt=""><img src="files/svg/ncn2020.svg" style="height:11px;" alt="">
     <b>Quasiballistic transport in long-range anisotropic Heisenberg model</b>
     <br>M. Mierzejewski, J. Wronowicz, J. Pawłowski, and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.107.045134" target="_blank">Phys. Rev. B <b>107</b>, 045134 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2206.05960" target="_blank">arXiv: cond-mat/2206.05960</a>
    </p>
-   <p class="nawa2019" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (42) <img src="files/svg/nawa2019.svg" style="height:11px;">
+   <p class="nawa2019" style="background: #f5f5f5;">
+    (42) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>From dissipationless to normal diffusion in easy-axis Heisenberg spin chain</b>
     <br>P. Prelovšek, S. Nandy, Z. Lenarčič, M. Mierzejewski, and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.106.245104" target="_blank">Phys. Rev. B <b>106</b>, 245104 (2022)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2205.11891" target="_blank">arXiv: cond-mat/2205.11891</a>
    </p>
    <p class="nawa2019">
-    (41) <img src="files/svg/nawa2019.svg" style="height:11px;">
+    (41) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Multiple relaxation times in perturbed XXZ chain</b>
     <br>M. Mierzejewski, J. Pawłowski, P. Prelovšek, and <u>J. Herbrych</u>
     <br><a href="https://scipost.org/SciPostPhys.13.2.013" target="_blank">SciPost Phys. <b>13</b>, 013 (2022)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2112.08158" target="_blank">arXiv: cond-mat/2112.08158</a>
    </p>
-   <p class="nawa2019" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (40) <img src="files/svg/nawa2019.svg" style="height:11px;">
+   <p class="nawa2019" style="background: #f5f5f5;">
+    (40) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>High-pressure inelastic neutron scattering study of the S=1 spin chain [Ni(HF<sub>2</sub>)(3-Clpyridine)<sub>4</sub>]BF<sub>4</sub></b>
     <br>D. M. Pajerowski, A. P. Podlesnyak, <u>J. Herbrych</u>, and J. Manson
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.105.134420" target="_blank">Phys. Rev. B <b>105</b>, 134420 (2022)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2206.06249" target="_blank">arXiv: cond-mat/2206.06249</a>
    </p>
    <p class="nawa2019">
-    (39) <img src="files/svg/nawa2019.svg" style="height:11px;">
+    (39) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Relaxation at different length-scales in models of many-body localization</b>
     <br><u>J. Herbrych</u>, M. Mierzejewski, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.105.L081105" target="_blank">Phys. Rev. B <b>105</b>, L081105 (2022)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2110.15635" target="_blank">arXiv: cond-mat/2110.15635</a>
    </p>
-   <p class="nawa2019 ncn2020" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (38) <img src="files/svg/nawa2019.svg" style="height:11px;"><img src="files/svg/ncn2020.svg" style="height:11px;">
+   <p class="nawa2019 ncn2020" style="background: #f5f5f5;">
+    (38) <img src="files/svg/nawa2019.svg" style="height:11px;" alt=""><img src="files/svg/ncn2020.svg" style="height:11px;" alt="">
     <b>Prediction of orbital selective Mott phases and block magnetic states in the quasi-one-dimensional iron chain Ce<sub>2</sub>O<sub>2</sub>FeSe<sub>2</sub> under hole and electron doping</b>
     <br>L.-F. Lin, Y. Zhang, G. Alvarez, <u>J. Herbrych</u>, A. Moreo, and E. Dagotto
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.105.075119" target="_blank">Phys. Rev. B <b>105</b>, 075119 (2022)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2112.04049" target="_blank">arXiv: cond-mat/2112.04049</a>
    </p>
    <p class="nawa2019 ncn2020">
-    (37) <img src="files/svg/nawa2019.svg" style="height:11px;"><img src="files/svg/ncn2020.svg" style="height:11px;">
+    (37) <img src="files/svg/nawa2019.svg" style="height:11px;" alt=""><img src="files/svg/ncn2020.svg" style="height:11px;" alt="">
     <b>Magnetization dynamics fingerprints of an excitonic condensate t<sup>4</sup><sub style='position: relative; left: -0.6em;'>2g</sub>magnet</b>
     <br>N. Kaushal, <u>J. Herbrych</u>, G. Alvarez, and E. Dagotto
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.104.235135" target="_blank">Phys. Rev. B <b>104</b>, 235135 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2110.11828" target="_blank">arXiv: cond-mat/2110.11828</a>
    </p>
-   <p class="nawa2019" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (36) <img src="files/svg/nawa2019.svg" style="height:11px;">
+   <p class="nawa2019" style="background: #f5f5f5;">
+    (36) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Coexistence of diffusive and ballistic transport in integrable quantum lattice models</b>
     <br>P. Prelovšek, M. Mierzejewski, and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.104.115163" target="_blank">Phys. Rev. B <b>104</b>, 115163 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2107.02454" target="_blank">arXiv: cond-mat/2107.02454</a>
    </p>
    <p class="nawa2019 ncn2020">
-    (35) <img src="files/svg/nawa2019.svg" style="height:11px;"><img src="files/svg/ncn2020.svg" style="height:11px;">
+    (35) <img src="files/svg/nawa2019.svg" style="height:11px;" alt=""><img src="files/svg/ncn2020.svg" style="height:11px;" alt="">
     <b>Quantum magnetism of iron-based ladders: blocks, spirals, and spin flux</b>
     <br>M. Środa, E. Dagotto, and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.104.045128" target="_blank">Phys. Rev. B <b>104</b>, 045128 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2105.04391" target="_blank">arXiv: cond-mat/2105.04391</a>
    </p>
-   <p class="nawa2019" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (34) <img src="files/svg/nawa2019.svg" style="height:11px;">
+   <p class="nawa2019" style="background: #f5f5f5;">
+    (34) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Diffusion in the Anderson model in higher dimensions</b>
     <br>P. Prelovšek and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.103.L241107" target="_blank">Phys. Rev. B <b>103</b>, L241107 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2104.07801" target="_blank">arXiv: cond-mat/2104.07801</a>
    </p>
    <p class="nawa2019">
-    (33)  <img src="files/svg/nawa2019.svg" style="height:11px;">
+    (33)  <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Ballistic transport in integrable lattice models with degenerate spectra</b>
     <br>M. Mierzejewski, <u>J. Herbrych</u>, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.103.235115" target="_blank">Phys. Rev. B <b>103</b>, 235115 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2102.07467" target="_blank">arXiv: cond-mat/2102.07467</a>
    </p>
-   <p class="nawa2019 ncn2020" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (32) <img src="files/svg/nawa2019.svg" style="height:11px;"><img src="files/svg/ncn2020.svg" style="height:11px;">
+   <p class="nawa2019 ncn2020" style="background: #f5f5f5;">
+    (32) <img src="files/svg/nawa2019.svg" style="height:11px;" alt=""><img src="files/svg/ncn2020.svg" style="height:11px;" alt="">
     <b>Interaction-induced topological phase transition and Majorana edge states in low-dimensional orbital-selective Mott insulators</b>
     <br><u>J. Herbrych</u>, M. Środa, G. Alvarez, M. Mierzejewski, and E. Dagotto
     <br><a href="https://www.nature.com/articles/s41467-021-23261-2" target="_blank">Nat. Commun. <b>12</b>, 2955 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2011.05646" target="_blank">arXiv: cond-mat/2011.05646</a>
    </p>
    <p class="nawa2019">
-    (31) <img src="files/svg/nawa2019.svg" style="height:11px;">
+    (31) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Resistivity and its fluctuations in disordered many-body systems: from chains to planes</b>
     <br>M. Mierzejewski, M. Środa, <u>J. Herbrych</u>, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.102.161111" target="_blank">Phys. Rev. B <b>102</b>, 161111(R) (2020)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2003.00495" target="_blank">arXiv: cond-mat/2003.00495</a>
    </p>
-   <p class="nawa2019" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (30) <img src="files/svg/nawa2019.svg" style="height:11px;">
+   <p class="nawa2019" style="background: #f5f5f5;">
+    (30) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Block orbital-selective Mott insulators: a spin excitation analysis</b>
     <br><u>J. Herbrych</u>, G. Alvarez, A. Moreo, and E. Dagotto
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.102.115134" target="_blank">Phys. Rev. B <b>102</b>, 115134 (2020)</a>&emsp;& &emsp;<a href="https://arxiv.org/abs/2006.09495" target="_blank">arXiv: cond-mat/2006.09495</a>
    </p>
    <p class="nawa2019">
-    (29) <img src="files/svg/nawa2019.svg" style="height:11px;">
+    (29) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Prediction of exotic magnetic states in the alkali metal quasi-one-dimensional iron selenide compound Na<sub>2</sub>FeSe<sub>2</sub></b>
     <br>B. Pandey, L.-F. Lin, R. Soni, N. Kaushal, <u>J. Herbrych</u>, G. Alvarez, and E. Dagotto
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.102.035149" target="_blank">Phys. Rev. B <b>102</b>, 035149 (2020)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2005.13132" target="_blank">arXiv: cond-mat/2005.13132</a>
    </p>
-   <p class="nawa2019" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (28) <img src="files/svg/nawa2019.svg" style="height:11px;">
+   <p class="nawa2019" style="background: #f5f5f5;">
+    (28) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Block-spiral magnetism: An exotic type of frustrated order</b>
     <br><u>J. Herbrych</u>, J. Heverhagen, G. Alvarez, M. Daghofer, A. Moreo, and E. Dagotto
     <br><a href="https://www.pnas.org/content/117/28/16226" target="_blank">Proc. Natl. Acad. Sci. USA <b>117</b>, 16226 (2020)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1911.12248" target="_blank">arXiv: cond-mat/1911.12248</a>
    </p>
    <p class="nawa2019">
-    (27) <img src="files/svg/nawa2019.svg" style="height:11px;">
+    (27) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Vanishing Wilson ratio as the hallmark of quantum spin-liquid models</b>
     <br>P. Prelovšek, K. Morita, T. Tohyama, and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevResearch.2.023024" target="_blank">Phys. Rev. Research <b>2</b>, 023024 (2020)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1912.00876" target="_blank">arXiv: cond-mat/1912.00876</a>
    </p>
-   <p class="nawa2019" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (26) <img src="files/svg/nawa2019.svg" style="height:11px;">
+   <p class="nawa2019" style="background: #f5f5f5;">
+    (26) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Inelastic neutron scattering study of the anisotropic S=1 spin chain [Ni(HF<sub>2</sub>)(3-Clpyridine)<sub>4</sub>]BF<sub>4</sub></b>
     <br>D. M. Pajerowski, J. L. Manson, <u>J. Herbrych</u>, J. Bendix, A. P. Podlesnyak, J. M. Cain, and M. W. Meisel
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.101.094431" target="_blank">Phys. Rev. B <b>101</b>, 094431 (2020)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2001.08555" target="_blank">arXiv: cond-mat/2001.08555</a>
    </p>
    <p class="nawa2019">
-    (25) <img src="files/svg/nawa2019.svg" style="height:11px;">
+    (25) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Charge-density-wave melting in the one-dimensional Holstein model</b>
     <br>J. Stolpp, <u>J. Herbrych</u>, F. Dorfner, E. Dagotto, and F. Heidrich-Meisner
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.101.035134" target="_blank">Phys. Rev. B <b>101</b>, 035134 (2020)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1911.01718" target="_blank">arXiv: cond-mat/1911.01718</a>
    </p>
-   <p class="nawa2019" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
-    (24) <img src="files/svg/nawa2019.svg" style="height:11px;">
+   <p class="nawa2019" style="background: #f5f5f5;">
+    (24) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Novel magnetic block states in low-dimensional iron-based superconductors</b>
     <br><u>J. Herbrych</u>, J. Heverhagen, N. D. Patel, G. Alvarez, M. Daghofer, A. Moreo, and E. Dagotto
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevLett.123.027203" target="_blank">Phys. Rev. Lett. <b>123</b>, 027203 (2019)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1812.00325" target="_blank">arXiv: cond-mat/1812.00325</a>
@@ -531,7 +530,7 @@
     <br>J. Richter, F. Jin, L. Knipschild, <u>J. Herbrych</u>, H. De Raedt, K. Michielsen, J. Gemmer, and R. Steinigeweg
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.99.144422" target="_blank">Phys. Rev. B <b>99</b>, 144422 (2019)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1811.02806" target="_blank">arXiv: cond-mat/1811.02806</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (22) 
     <b>Sudden removal of a static force in a disordered system: Induced dynamics, thermalization, and transport</b>
     <br>J. Richter, <u>J. Herbrych</u>, and R. Steinigeweg
@@ -543,7 +542,7 @@
     <br>S. Scherg, T. Kohlert, <u>J. Herbrych</u>, J. Stolpp, P. Bordia, U. Schneider, F. Heidrich-Meisner, I. Bloch, and M. Aidelsburger
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevLett.121.130402" target="_blank">Phys. Rev. Lett. <b>121</b>, 130402 (2018)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1805.10990" target="_blank">arXiv: cond-mat/1805.10990</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (20) 
     <b>Spin dynamics of the block orbital-selective Mott phase</b>
     <br><u>J. Herbrych</u>, N. Kaushal, A. Nocera, G. Alvarez, A. Moreo, and E. Dagotto 
@@ -555,7 +554,7 @@
     <br>N. Kaushal, <u>J. Herbrych</u>, A. Nocera, G. Alvarez, A. Moreo, F. A. Reboredo, and E. Dagotto 
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.96.155111" target="_blank">Phys. Rev. B <b>96</b>, 155111 (2017)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1707.04313" target="_blank">arXiv: cond-mat/1707.04313</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (18) 
     <b>Efficiency of fermionic quantum distillation</b>
     <br><u>J. Herbrych</u>, A. E. Feiguin, E. Dagotto, and F. Heidrich-Meisner
@@ -567,7 +566,7 @@
     <br>C. B. Bishop, <u>J. Herbrych</u>, E. Dagotto, and A. Moreo
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.96.035144" target="_blank">Phys. Rev. B <b>96</b>, 035144 (2017)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1704.03495" target="_blank">arXiv: cond-mat/1704.03495</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (16) 
     <b>Self-consistent approach to many-body localization and subdiffusion</b>
     <br>P. Prelovšek and <u>J. Herbrych</u>
@@ -579,7 +578,7 @@
     <br><u>J. Herbrych</u>, A. G. Chazirakis, N. Christakis, and J. J. P. Veerman
     <br><a href="https://link.springer.com/article/10.1007/s12591-017-0377-3" target="_blank">Differ. Equ. & Dyn. Syst. <b>29</b>, 487 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1506.07381" target="_blank">arXiv: math/1506.07381</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (14) 
     <b>Density correlations and transport in models of many-body localization</b>
     <br>P. Prelovšek, M. Mierzejewski, O. Barišić, and <u>J. Herbrych</u>
@@ -591,7 +590,7 @@
     <br>D. Schmidtke, R. Steinigeweg, <u>J. Herbrych</u>, and J. Gemmer
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.95.134201" target="_blank">Phys. Rev. B <b>95</b>, 134201 (2017)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1607.05664" target="_blank">arXiv: cond-mat/1607.05664</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (12) 
     <b>Effective realization of random magnetic fields in compounds with large single-ion anisotropy</b>
     <br><u>J. Herbrych</u> and J. Kokalj
@@ -603,7 +602,7 @@
     <br>M. Mierzejewski, <u>J. Herbrych</u>, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.94.224207" target="_blank">Phys. Rev. B <b>94</b>, 224207 (2016)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1607.04992" target="_blank">arXiv: cond-mat/1607.04992</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (10) 
     <b>Typicality approach to the optical conductivity in thermal and many-body localized phases</b>
     <br>R. Steinigeweg, <u>J. Herbrych</u>, F. Pollmann, and W. Brenig
@@ -615,7 +614,7 @@
     <br><u>J. Herbrych</u> and X. Zotos
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.93.134412" target="_blank">Phys. Rev. B <b>93</b>, 134412 (2016)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1505.03004" target="_blank">arXiv: cond-mat/1505.03004</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (8) 
     <b>Heat conductivity of the Heisenberg spin-1/2 ladder: From weak to strong breaking of integrability</b>
     <br>R. Steinigeweg, <u>J. Herbrych</u>, X. Zotos, and W. Brenig
@@ -627,7 +626,7 @@
     <br>J. Kokalj, <u>J. Herbrych</u>, A. Zheludev, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.91.155147" target="_blank">Phys. Rev. B <b>91</b>, 155147 (2015)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1409.1757" target="_blank">arXiv: cond-mat/1409.1757</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (6) 
     <b>Effective S=1/2 description of the S=1 chain with strong easy plane anisotropy</b>
     <br>C. Psaroudaki, <u>J. Herbrych</u>, J. Karadamoglou, P. Prelovšek, X. Zotos, and N. Papanicolaou
@@ -639,7 +638,7 @@
     <br><u>J. Herbrych</u>, J. Kokalj, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevLett.111.147203" target="_blank">Phys. Rev. Lett. <b>111</b>, 147203 (2013)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1307.0370" target="_blank">arXiv: cond-mat/1307.0370</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (4) 
     <b>Eigenstate thermalization within isolated spin-chain systems</b>
     <br>R. Steinigeweg, <u>J. Herbrych</u>, and P. Prelovšek
@@ -651,7 +650,7 @@
     <br><u>J. Herbrych</u>, R. Steinigeweg, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.86.115106" target="_blank">Phys. Rev. B <b>86</b>, 115106 (2012)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1206.4248" target="_blank">arXiv: cond-mat/1206.4248</a>
    </p>
-   <p class="allpub" style="background: color-mix(in srgb, var(--main-color) 10%, transparent);">
+   <p class="allpub" style="background: #f5f5f5;">
     (2) 
     <b>Coexistence of anomalous and normal diffusion in integrable Mott insulators</b>
     <br>R. Steinigeweg, <u>J. Herbrych</u>, P. Prelovšek, and M. Mierzejewski
@@ -663,17 +662,12 @@
     <br><u>J. Herbrych</u>, P. Prelovšek, and X. Zotos
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.84.155125" target="_blank">Phys. Rev. B <b>84</b>, 155125 (2011)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1107.3027" target="_blank">arXiv: cond-mat/1107.3027</a>
    </p>
-   <div class="divend"></div>
   </div> <!-- publication -->
 <!------------------------------------------------------------------->
  </div> <!-- content -->
 <!------------------------------------------------------------------->
  <div class="footer">
   <b>Jacek Herbrych</b> &emsp;&emsp;&emsp; Wrocław University of Science and Technology &emsp;&emsp;&emsp; Last update:&nbsp<span id="last-update"></span>
-  &emsp;&emsp;&emsp; Choose color:
-  <span class="colorbtn" style="background:#0b5394" onclick="changeTheme('#0b5394')"></span>
-  <span class="colorbtn" style="background:#EE4B2B" onclick="changeTheme('#EE4B2B')"></span>
-  <span class="colorbtn" style="background:#218C17" onclick="changeTheme('#218C17')"></span>
  </div> <!-- footer -->
 <!------------------------------------------------------------------->
 <script>
@@ -714,12 +708,6 @@
  </script>
 <!------------------------------------------------------------------->
  <script>
-  function changeTheme(color){
-   document.documentElement.style.setProperty('--main-color', color);
-  }
- </script>
-<!------------------------------------------------------------------->
- <script>
   var vall = document.getElementsByClassName("allpub");
   var vnawa2019 = document.getElementsByClassName("nawa2019");
   var vncn2020 = document.getElementsByClassName("ncn2020");
@@ -752,6 +740,7 @@
    hideTag(vheadncn2020)
    hideTag(vheadnawa2019)
    showTag(vheadallpub)
+   updateScrollProgress();
   }
   function nawa2019() {
    hideTag(vall)
@@ -765,6 +754,7 @@
    hideTag(vheadncn2024)
    hideTag(vheadncn2020)
    showTag(vheadnawa2019)
+   updateScrollProgress();
   }
   function ncn2020() {
    hideTag(vall)
@@ -778,6 +768,7 @@
    hideTag(vheadncn2024)
    hideTag(vheadnawa2019)
    showTag(vheadncn2020)
+   updateScrollProgress();
   }
   function ncn2024() {
    hideTag(vall)
@@ -791,6 +782,7 @@
    hideTag(vheadncn2020)
    hideTag(vheadnawa2019)
    showTag(vheadncn2024)
+   updateScrollProgress();
   }
   function jsps2026() {
    hideTag(vall)
@@ -804,6 +796,7 @@
    hideTag(vheadncn2020)
    hideTag(vheadnawa2019)
    showTag(vheadjsps2026)
+   updateScrollProgress();
   }
  </script>
 <!------------------------------------------------------------------->
@@ -815,6 +808,8 @@
   }else{
    document.getElementById('pastlist').style.display = 'none';
   }
+  document.querySelector('.past-toggle').setAttribute('aria-expanded', document.getElementById('pastlist').style.display !== 'none');
+  updateScrollProgress();
  }
  </script>
 <!------------------------------------------------------------------->
