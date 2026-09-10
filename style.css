@@ -173,6 +173,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5em 2em;
 }
 
 .footer::before {
@@ -261,7 +262,7 @@ img { max-width: 100%; object-fit: contain; }
   min-height: 0;
 }
 
-.info-title { padding-inline-start: 1em; }
+.h3-title { padding-inline-start: 0.5em; }
 
 .info-section {
   margin: 1em 20px;
