@@ -250,7 +250,7 @@ img { max-width: 100%; }
   cursor: pointer;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .headerbackground { display: none; }
   .header {
     position: relative;
@@ -285,4 +285,95 @@ img { max-width: 100%; }
     padding-block: 10px;
     text-align: center;
   }
+}
+
+/* Comfortable reading and touch navigation on phones and tablets. */
+html { -webkit-text-size-adjust: 100%; }
+img { object-fit: contain; }
+
+@media (max-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0 16px 16px;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+  }
+  .header { padding-bottom: 0; }
+  .headertab { margin-top: 20px; gap: 16px; }
+  .headertab > div:first-child { margin-left: 0 !important; }
+  .headertab > div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  .headertab img {
+    max-height: 56px;
+    width: auto;
+    padding: 0 !important;
+  }
+  h1 { font-size: 22px; line-height: 1.4; margin-bottom: 6px; }
+  h2 { font-size: 16px; line-height: 1.5; letter-spacing: 0; }
+  h3 {
+    margin-inline: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+  p { margin-inline: 0; text-align: left; }
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 8px;
+    margin: 16px 0 0;
+    /* Hide the decorative text bullets; retain the existing link labels. */
+    font-size: 0;
+    letter-spacing: 0;
+    text-shadow: none;
+  }
+  .navigation a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 44px;
+    padding: 4px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  #scroll-progress { display: none; }
+  .content { margin-top: 24px; }
+  .twotabinfo, .twotab, .threetab { width: 100%; text-align: left; }
+  .twotabinfo > div, .twotab > div, .threetab > div { min-width: 0; }
+  .twotabinfo > div:has(> img) { text-align: center; }
+  .twotabinfo + .twotabinfo { margin-top: 20px; }
+  .twotabinfo > div:has(> b) > a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 16px;
+    margin-top: 10px;
+  }
+  .twotabinfo > div:has(> b) > a img { margin: 0 !important; }
+  .twotab > div:last-child {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  .threetab { text-align: center; }
+  .threetab > :nth-child(n+4) { margin-bottom: 20px; }
+  .headallpub > a {
+    display: inline-block;
+    max-width: calc(100% - 32px);
+    min-height: 44px;
+    vertical-align: top;
+  }
+  .past-toggle { min-height: 44px; }
+  .footer { box-sizing: border-box; gap: 4px; }
+}
+
+@media (max-width: 480px) {
+  .navigation { display: block; }
+  .navigation a { width: 50%; }
 }
