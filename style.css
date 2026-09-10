@@ -152,7 +152,7 @@ p {
 
 .publications {
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   background: #ffffff;
   border: 2px solid #ffffff;
 }
@@ -173,6 +173,17 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  height: var(--header-fade);
+  background: linear-gradient(to top, var(--main-color), transparent);
+  pointer-events: none;
 }
 
 .twotabinfo {
@@ -344,6 +355,9 @@ html { -webkit-text-size-adjust: 100%; }
     box-sizing: border-box;
     gap: 4px;
   }
+  .footer::before {
+    display: none;
+  }
   body {
     margin: 0;
     padding: 0 14px 14px;
@@ -373,11 +387,11 @@ html { -webkit-text-size-adjust: 100%; }
     line-height: 1.5;
     letter-spacing: 1px;
   }
-  p { margin-inline: 0; text-align: left; }
+  p { margin-inline: 0; text-align: justify; }
 
   #scroll-progress { display: none; }
 
-  .twotabinfo, .twotab, .threetab { width: 100%; text-align: left; }
+  .twotabinfo, .twotab, .threetab { width: 100%; text-align: justify; }
   .twotabinfo > div, .twotab > div, .threetab > div { min-width: 0; }
   .twotabinfo > div:has(> img) { text-align: center; }
   .twotabinfo + .twotabinfo { margin-top: 20px; }
