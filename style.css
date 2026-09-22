@@ -420,3 +420,34 @@ html { -webkit-text-size-adjust: 100%; }
   .past-toggle { min-height: 44px; }
 
 }
+
+.info-group-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 290px) minmax(0, 500px);
+  gap: 24px;
+  align-items: end;
+  margin: 1em 20px;
+}
+
+.info-group-details { min-width: 0; }
+.info-group-details > .info-section { margin: 0 0 1em; }
+.info-group-details > .info-section:last-child { margin-bottom: 0; }
+.group-photo {
+  margin: 0;
+  width: 100%;
+  max-width: 500px;
+}
+.group-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .info-group-layout { margin-inline: 0; }
+}
+
+@media (max-width: 600px) {
+  .info-group-layout { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .group-photo { width: 100%; max-width: 365px; }
+}
