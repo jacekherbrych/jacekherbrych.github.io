@@ -337,7 +337,7 @@ html { -webkit-text-size-adjust: 100%; }
     margin-top: 24px;
   }
   :target { scroll-margin-top: 16px; }
-  .twotabinfo, .twotab { grid-template-columns: 1fr; gap: 15px; }
+  .twotabinfo { grid-template-columns: 1fr; gap: 15px; }
   .twotabinfo > div:empty { display: none; }
   .threetab { grid-template-columns: 1fr; gap: 12px; }
   .threetab > :nth-child(1) { order: 1; }

@@ -6,6 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <title>Jacek Herbrych - Wrocław University of Science and Technology</title>
  <link rel="stylesheet" media="screen" href="style.css">
+ <script src="script.js" defer></script>
 </head>
 <body>
 <!------------------------------------------------------------------->
@@ -18,7 +19,7 @@
     <h2><a href="https://www.pwr.edu.pl" target="_blank">Wrocław University of Science and Technology</a></h2>
    </div>
    <div style="margin-left:auto; margin-right:0;">
-    <a href="https://www.kft.pwr.edu.pl" target="_blank"><img src="files/itp.png" alt="KFT" style="height:65px; padding-left:10px; padding-right:10px; filter: drop-shadow(2px 2px 4px black);"></a>
+    <a href="https://www.ift.pwr.edu.pl" target="_blank"><img src="files/itp.png" alt="IFT" style="height:65px; padding-left:10px; padding-right:10px; filter: drop-shadow(2px 2px 4px black);"></a>
     <a href="https://www.pwr.edu.pl" target="_blank"><img src="files/pwr.png" alt="PWr" style="height:65px; padding-left:10px; padding-right:10px; filter: drop-shadow(2px 2px 4px black);"></a>
    </div>
   </div> <!-- headertab -->
@@ -40,12 +41,11 @@
      <img src="pic/jacek.jpg" style="height:150px; filter: drop-shadow(2px 2px 4px black);" alt="Jacek Herbrych">
     </div>
     <div>
-     I'm a theoretical physicist exploring the fascinating world of quantum many-body systems, particularly the behavior of electrons in low-dimensional, strongly correlated setups. Since 2019, I have been working at the Institute of Theoretical Physics, Wrocław University of Science and Technology (Poland). In the past, I worked in Slovenia, Greece, and the USA. In my work, I combine analytical approaches with advanced numerical methods to investigate phenomena such as quantum transport and dynamics, emergent magnetic properties, and unconventional superconductivity.
+     I'm a theoretical physicist studying how interactions between particles give rise to collective phenomena in quantum many-body systems. My research focuses on low-dimensional systems, with interests spanning quantum magnetism, transport, nonequilibrium dynamics, and unconventional superconductivity. I combine analytical approaches with numerical many-body methods to understand the mechanisms underlying these phenomena. Since&nbsp;2019, I have been based at the Institute of Theoretical Physics at Wrocław University of Science and Technology, Poland. Previously, I held research positions in Slovenia, Greece, and the USA.
     </div>
    </div>
    <div class="twotabinfo">
-    <div>
-    </div>
+    <div></div>
     <div>
      <b>My research has received support from:</b><br>
      <a href="#nav-funding">
@@ -100,13 +100,13 @@
        <li>(master) Jagoda Maląg</li>
        <li>(diploma) Szymon Morys</li>
        <li>(diploma) Piotr Złotowski</li>
-       <li><button type="button" class="past-toggle" aria-controls="pastlist" aria-expanded="false" onclick="showhidebut();">Past members</button></li>
+       <li><button type="button" class="past-toggle" aria-controls="pastlist" aria-expanded="false">Past members</button></li>
       </ul>
      </div>
     </div>
-    <!-- <figure class="group-photo">
-     <a href="pic/group2026.jpg" target="_blank"><img src="pic/group2026.jpg" style="filter: drop-shadow(2px 2px 4px black);"></a>
-    </figure> -->
+    <!--<figure class="group-photo">
+     <a href="pic/group2026.jpg" target="_blank"><img src="pic/group2026.jpg" style="filter: drop-shadow(2px 2px 4px black);" alt="Group photo 2026"></a>
+    </figure>-->
    </div>
    <ul id="pastlist" class="info-list info-past" style="display:none;">
     <li>(2023 phd) <a href="http://www.maksymiliansroda.pl" target="_blank">Maksymilian Środa</a></li>
@@ -132,11 +132,10 @@
    <h3 class="h3-title">&#9702; research interests</h3>
    <p>
     &#9900; <b>Strongly correlated multi-orbital systems</b><br>
-    Past experience in strongly correlated quantum systems, especially Cu-based materials, showed that the high-temperature superconductivity is closely connected to a bad-metal state and a nearby antiferromagnetic order. As such, there has been a considerable effort devoted to the understanding of the electron correlation effects and the associated magnetism. On the other hand, the multi-orbital system properties, relevant for Fe-based materials, are much less explored. Iron-based superconductors display various phases originating in the multi-orbital nature of iron itself, and as a consequence, in the competition between electronic, orbital, and spin degrees of freedom. Prominent among these novel effects is the orbital-selective Mott phase (OSMP), where electronic correlations cause a unique mixture of metallic and insulating behavior.
+    The collective behavior of interacting electrons gives rise to a wide range of phenomena, including magnetism, metal-insulator transitions, and unconventional superconductivity. In materials with several active electronic orbitals, the interplay between charge, spin, and orbital degrees of freedom creates particularly rich physics. Understanding how these ingredients cooperate or compete is a central challenge in condensed-matter theory.
    </p>
    <p>
-    Our group investigates (primarily using numerical techniques) static and dynamic properties of multi-orbital systems with the emphasis on their magnetic properties and the role of Hund’s interaction. One can expect that the competition between Hund's coupling and Coulomb interaction can lead to a novel type of frustrated magnetism. Furthermore, a nontrivial magnetic order within OSMP could lead to nontrivial topological effects.
-   </p>
+    Our group studies the equilibrium properties and dynamics of strongly correlated systems, with particular emphasis on low-dimensional models. We investigate how electronic interactions generate magnetic correlations, influence the motion and pairing of charge carriers, and produce phases with nontrivial topological properties. Combining numerical many-body methods with analytical approaches, we aim to identify the microscopic mechanisms underlying these collective phenomena and connect simplified theoretical models with the properties of quantum materials.   </p>
    <div class="threetab" style="">
     <div style="">
      <a href="https://www.nature.com/articles/s41467-021-23261-2" target="_blank"><img src="files/pubpic/pub11.jpg" style="width:240px;" alt="Research figure — open the associated publication"></a>
@@ -159,10 +158,10 @@
    </div>
    <p style="margin-top: 30px;">
     &#9900; <b>Transport properties in low-dimensional quantum systems</b><br>
-    Transport in many-body systems of interacting fermions established several novel - entirely quantum - aspects going well beyond usual weak-scattering or Boltzmann-type approaches to transport. Such behavior is especially pronounced in the system with reduced dimensionality (e.g., in 1D chains and quasi-1D ladders). Furthermore, due to the possibility of accurate treatment on the latter, the low-dimensional systems have become a playground for condensed-matter physicists to test various theoretical scenarios. A prominent fundamental model and an experimentally relevant example of such a phenomenon is the one-dimensional antiferromagnetic Heisenberg model describing the low-dimensional quantum magnets even at high temperatures.
+    How do spin, charge, and energy move through a quantum system? How does an interacting system relax after a perturbation, and what determines whether it reaches thermal equilibrium? These questions lie at the intersection of condensed-matter physics and statistical mechanics. They are especially rich in low dimensions, where quantum fluctuations, interactions, and conservation laws can strongly influence the dynamics.
    </p>
    <p>
-    We are interested in various transport properties of the low-dimensional quantum system. Our study focuses, among others, on the effects of the integrability of the model, many-body localization, the physics of random interaction exchange, non-equilibrium properties, and linear response of the systems to experimentally relevant perturbations.
+    We investigate transport and relaxation in quantum many-body systems, focusing on the roles of interactions, disorder, and dynamical constraints. Our interests range from ballistic propagation and diffusion to slow relaxation and the persistence of memory of an initial state. We study both isolated systems and systems coupled to an environment, exploring how microscopic processes give rise to large-scale transport and how equilibrium properties are related to nonequilibrium evolution.
    </p>
    <div class="threetab" style="">
     <div style="">
@@ -186,7 +185,10 @@
    </div>
    <p style="margin-top: 30px;">
     &#9900; <b>Dynamics of quantum circuits</b><br>
-    The study of quantum circuit dynamics has recently emerged as a powerful framework for understanding nonequilibrium behavior in complex quantum systems. In contrast to equilibrium condensed-matter settings, quantum circuits naturally describe unitary time evolution interspersed with measurements, dissipation, or noise, thereby providing insight into entanglement growth, information scrambling, and thermalization. Of particular interest is the competition between coherent gate operations and projective measurements, which can drive measurement-induced phase transitions between volume-law and area-law entangled phases. Such transitions reveal fundamentally new universality classes that have no classical counterpart. Furthermore, random quantum circuits serve as minimal models for quantum chaos, operator spreading, and the emergence of hydrodynamic behavior in strongly interacting systems. Due to their flexibility and direct relevance to current noisy intermediate-scale quantum (NISQ) devices, quantum circuits have become a versatile platform for exploring the interplay between quantum information, many-body physics, and statistical mechanics.
+    Quantum circuits offer a complementary way to study the dynamics of interacting quantum systems. Built from sequences of local operations, they provide a flexible setting for investigating how entanglement develops, how information spreads, and how collective behavior emerges. Measurements and coupling to an environment introduce further possibilities, allowing coherent quantum evolution and irreversible processes to be studied within a common framework.
+   </p>
+   <p>
+    We are interested in how the interplay between quantum operations, measurements, and conservation laws shapes many-body dynamics. Our broader aim is to connect ideas from quantum information with questions about thermalization, transport, and collective phenomena, using quantum circuits to explore general principles of nonequilibrium quantum physics.
    </p>
   </div> <!-- research -->
 <!------------------------------------------------------------------>
@@ -196,7 +198,7 @@
     <div>
      <a href="https://www.jsps.go.jp/english/e-inv/" target="_blank" style="font-weight: 500;">Japan Society for the Promotion of Science (JSPS)</a>
      <br><a href="https://www.jsps.go.jp/file/storage/e-inv/adoptlist/FY2026/2026_short_1_e.pdf" target="_blank" style="font-weight: 500;">Invitational Fellowships for Research in Japan S26017</a>
-     <br>Visiting professor, VIII.2026 - IX.2026
+     <br>Visiting associate professor, VIII.2026 - IX.2026
      <br>Tokyo University of Science, Japan
     </div>
     <div style=" margin-left: auto; margin-right: 0; margin-top: 5px;">
@@ -232,7 +234,7 @@
    <div class="twotab" style="margin-bottom:10px; margin-top:10px;">
     <div>
      <a href="https://oit.utk.edu/hpsc/" target="_blank" style="font-weight: 500;">ISAAC Next Generation cluster</a>
-     <br>High-performance computing resources, 2016-2025
+     <br>High-performance computing resources, 2016 - 2025
      <br>University of Tennessee (Knoxville, USA)
     </div>
     <div style=" margin-left: auto; margin-right: 0; margin-top: 5px;">
@@ -268,26 +270,26 @@
    <h3 class="h3-title">&#9702; publications </h3>
    <p class="headallpub">
     See <b>only</b> publications supported by:
-    <br>&emsp;&#9900; <a href="#nav-publications" onclick="jsps2026()"><img src="files/svg/jsps2026.svg" style="height:11px;" alt=""> <b>JSPS Invitational Fellowships for Research in Japan</b> <span class="filter-details">S26017 <span class="date-range">(2026)</span></span></a>
-    <br>&emsp;&#9900; <a href="#nav-publications" onclick="ncn2024()"><img src="files/svg/ncn2024.svg" style="height:11px;" alt=""> <b>NCN SONATA BIS 13</b> <span class="filter-details">2023/50/E/ST3/00033 <span class="date-range">(2024-2029)</span></span></a> 
-    <br>&emsp;&#9900; <a href="#nav-publications" onclick="ncn2020()"><img src="files/svg/ncn2020.svg" style="height:11px;" alt=""> <b>NCN OPUS 18</b> <span class="filter-details">2019/35/B/ST3/01207 <span class="date-range">(2020-2023)</span></span></a> 
-    <br>&emsp;&#9900; <a href="#nav-publications" onclick="nawa2019()"><img src="files/svg/nawa2019.svg" style="height:11px;" alt=""> <b>NAWA Polish Returns</b> <span class="filter-details">PPN/PPO/2018/1/00035 <span class="date-range">(2019-2022)</span></span></a> 
+    <br>&emsp;&#9900; <a href="#nav-publications" data-publication-filter="jsps2026"><img src="files/svg/jsps2026.svg" style="height:11px;" alt=""> <b>JSPS Invitational Fellowships for Research in Japan</b> <span class="filter-details">S26017 <span class="date-range">(2026)</span></span></a>
+    <br>&emsp;&#9900; <a href="#nav-publications" data-publication-filter="ncn2024"><img src="files/svg/ncn2024.svg" style="height:11px;" alt=""> <b>NCN SONATA BIS 13</b> <span class="filter-details">2023/50/E/ST3/00033 <span class="date-range">(2024-2029)</span></span></a> 
+    <br>&emsp;&#9900; <a href="#nav-publications" data-publication-filter="ncn2020"><img src="files/svg/ncn2020.svg" style="height:11px;" alt=""> <b>NCN OPUS 18</b> <span class="filter-details">2019/35/B/ST3/01207 <span class="date-range">(2020-2023)</span></span></a> 
+    <br>&emsp;&#9900; <a href="#nav-publications" data-publication-filter="nawa2019"><img src="files/svg/nawa2019.svg" style="height:11px;" alt=""> <b>NAWA Polish Returns</b> <span class="filter-details">PPN/PPO/2018/1/00035 <span class="date-range">(2019-2022)</span></span></a> 
    </p>
    <p class="headjsps2026">
-    &#9900; <a onclick="allpub()"><b>See all publications</b></a>
+    &#9900; <a href="#nav-publications" data-publication-filter="all"><b>See all publications</b></a>
     <br><br>
     Publications supported by <img src="files/svg/jsps2026.svg" style="height:11px;" alt=""> <b>JSPS Invitational Fellowships for Research in Japan</b> (2026):
    </p>
    <p class="headncn2024">
-    &#9900; <a onclick="allpub()"><b>See all publications</b></a><br><br>
+    &#9900; <a href="#nav-publications" data-publication-filter="all"><b>See all publications</b></a><br><br>
     Publications supported by <img src="files/svg/ncn2024.svg" style="height:11px;" alt=""> <b>NCN SONATA BIS 13</b> 2023/50/E/ST3/00033 (2024-2029):
    </p>
    <p class="headncn2020">
-    &#9900; <a onclick="allpub()"><b>See all publications</b></a><br><br>
+    &#9900; <a href="#nav-publications" data-publication-filter="all"><b>See all publications</b></a><br><br>
     Publications supported by <img src="files/svg/ncn2020.svg" style="height:11px;" alt=""> <b>NCN OPUS 18</b> 2019/35/B/ST3/01207 (2020-2023):
    </p>
    <p class="headnawa2019">
-    &#9900; <a onclick="allpub()"><b>See all publications</b></a><br><br>
+    &#9900; <a href="#nav-publications" data-publication-filter="all"><b>See all publications</b></a><br><br>
     Publications supported by <img src="files/svg/nawa2019.svg" style="height:11px;" alt=""> <b>NAWA Polish Returns</b> PPN/PPO/2018/1/00035 (2019-2022):
    </p>
    <p class="ncn2024">
@@ -296,10 +298,10 @@
     <br><u>J. Herbrych</u> and M. Daghofer
     <br><a href="http://arxiv.org/abs/2605.30240" target="_blank">arXiv: cond-mat/2605.30240</a>
    </p>
-   <p class="ncn2024" style="background: #f5f5f5;">
+   <p class="ncn2024">
     (62) <img src="files/svg/ncn2024.svg" style="height:11px;" alt=""> 
     <b>Graph-Theoretic Detection of Hilbert Space Fragmentation</b>
-    <br>A. Rutkowski, M. Mierzejewski and <u>J. Herbrych</u>
+    <br>A. Rutkowski, M. Mierzejewski, and <u>J. Herbrych</u>
     <br><a href="http://arxiv.org/abs/2605.17951" target="_blank">arXiv: cond-mat/2605.17951</a>
    </p>
    <p class="allpub">
@@ -308,7 +310,7 @@
     <br>M. Kempa, M. Kraft, S. Nandy, <u>J. Herbrych</u>, J. Wang, J. Gemmer, and R. Steinigeweg
     <br><a href="https://doi.org/10.1103/95pc-s3b3" target="_blank">Phys. Rev. B <b>113</b>, 064431 (2026)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2507.16528" target="_blank">arXiv: cond-mat/2507.16528</a>
    </p>
-   <p class="ncn2024" style="background: #f5f5f5;">
+   <p class="ncn2024">
     (60) <img src="files/svg/ncn2024.svg" style="height:11px;" alt=""> 
     <b>Doping S=1 antiferromagnet in one-dimension</b>
     <br>J. Prokopczyk and <u>J. Herbrych</u>
@@ -320,7 +322,7 @@
     <br>M. Lisiecki, J. Bonča, M. Mierzejewski, <u>J. Herbrych</u>, and P. Łydżba
     <br><a href="https://doi.org/10.1103/fysk-w1vs" target="_blank">Phys. Rev. B <b>112</b>, 195116 (2025)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2505.09346" target="_blank">arXiv: cond-mat/2505.09346</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (58) 
     <b>Finding local integrals of motion in quantum lattice models in the thermodynamic limit</b>
     <br>J. Pawłowski, <u>J. Herbrych</u>, and M. Mierzejewski
@@ -332,7 +334,7 @@
     <br>M. Mierzejewski, E. Dagotto, and <u>J. Herbrych</u>
     <br><a href="https://doi.org/10.1103/qyqw-yy3j" target="_blank">Phys. Rev. B <b>112</b>, L041107 (2025)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2411.03771" target="_blank">arXiv: cond-mat/2411.03771</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (56) 
     <b>Spin and energy diffusion vs. subdiffusion in disordered spin chains</b>
     <br><u>J. Herbrych</u> and P. Prelovšek
@@ -345,7 +347,7 @@
     <br><a href="https://iopscience.iop.org/article/10.1088/1361-6633/add6d4" target="_blank">Rep. Prog. Phys. <b>88</b>, 068001 (2025)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2503.01277" target="_blank">arXiv: cond-mat/2503.01277</a>
     <br>Featured in <a href="https://physicsworld.com/a/new-mechanism-explains-behaviour-of-materials-exhibiting-giant-magnetoresistance/" target="_blank">Physics World</a> and <a href="https://physicsworld.com/a/quantum-ferromagnets-without-the-usual-tricks/" target="_blank">Progress In series</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (54) 
     <b>Luther-Emery liquid and dominant singlet superconductivity in the two-orbital Hubbard chain</b>
     <br>P. Laurell, <u>J. Herbrych</u>, G. Alvarez, and E. Dagotto
@@ -357,7 +359,7 @@
     <br>M. Kraft, J. Richter, F. Jin, S. Nandy, Z. Lenarčič, <u>J. Herbrych</u>, K. Michielsen, H. De Raedt, J. Gemmer, and R. Steinigeweg
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevResearch.6.023251" target="_blank">Phys. Rev. Res. <b>6</b>, 023251 (2024)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2402.18177" target="_blank">arXiv: cond-mat/2402.18177</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (52) 
     <b>Long-living prethermalization in nearly integrable spin ladders</b>
     <br>J. Pawłowski, M. Panfil, <u>J. Herbrych</u>, and M. Mierzejewski
@@ -369,7 +371,7 @@
     <br>S. Nandy, <u>J. Herbrych</u>, Z. Lenarčič, A. Głódkowski, P. Prelovšek, and M. Mierzejewski
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.109.115120" target="_blank">Phys. Rev. B <b>109</b>, 115120 (2024)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2310.01862" target="_blank">arXiv: cond-mat/2310.01862</a>
    </p>
-   <p class="ncn2020" style="background: #f5f5f5;">
+   <p class="ncn2020">
     (50) <img src="files/svg/ncn2020.svg" style="height:11px;" alt="">
     <b>Transition to the Haldane phase driven by electron-electron correlations</b>
     <br>A. Jażdżewska, M. Mierzejewski, M. Środa, A. Nocera, G. Alvarez, E. Dagotto, and <u>J. Herbrych</u>
@@ -381,7 +383,7 @@
     <br>T. Heitmann, J. Richter, F. Jin, S. Nandy, Z. Lenarčič, <u>J. Herbrych</u>, K. Michielsen, H. De Raedt, J. Gemmer, and R. Steinigeweg
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.108.L201119" target="_blank">Phys. Rev. B <b>108</b>, L201119 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2303.00430" target="_blank">arXiv: cond-mat/2303.00430</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (48) 
     <b>Spatially-anisotropic S=1 square-lattice antiferromagnet with single-ion anisotropy realized with a Ni(II) pyrazine-n,n'-dioxide (pyzdo) coordination polymer</b>
     <br>J. L. Manson, D. M. Pajerowski, J. M. Donovan, B. Twamley, P. A. Goddard, R. Johnson, J. Bendix, J. Singleton, T. Lancaster, S. J. Blundell, <u>J. Herbrych</u>, P. J. Baker, A. J. Steele, F. L. Pratt, I. Franke-Chaudet, R. D. McDonald, A. Plonczak, and P. Manuel
@@ -390,10 +392,10 @@
    <p class="allpub">
     (47) 
     <b>Spin diffusion in perturbed isotropic Heisenberg spin chain</b>
-    <br>S. Nandy, Z. Lenarčič, E. Ilievski, M. Mierzejewski, <u>J. Herbrych</u>, P. Prelovšek
+    <br>S. Nandy, Z. Lenarčič, E. Ilievski, M. Mierzejewski, <u>J. Herbrych</u>, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.108.L081115" target="_blank">Phys. Rev. B <b>108</b>, L081115 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2211.17181" target="_blank">arXiv: cond-mat/2211.17181</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (46) 
     <b>Real-time broadening of bath-induced density profiles from closed-system correlation functions</b>
     <br>T. Heitmann, J. Richter, <u>J. Herbrych</u>, J. Gemmer, and R. Steinigeweg
@@ -405,10 +407,10 @@
     <br>M. Środa, J. Mravlje, G. Alvarez, E. Dagotto, and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.108.L081102" target="_blank">Phys. Rev. B <b>108</b>, L081102 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2210.11209" target="_blank">arXiv: cond-mat/2210.11209</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (44) 
     <b>Slow diffusion and Thouless localization criterion in modulated spin chains</b>
-    <br>M. Mierzejewski, <u>J. Herbrych</u>, P. Prelovšek
+    <br>M. Mierzejewski, <u>J. Herbrych</u>, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.108.035106" target="_blank">Phys. Rev. B <b>108</b>, 035106 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2302.03325" target="_blank">arXiv: cond-mat/2302.03325</a>
    </p>
    <p class="nawa2019 ncn2020">
@@ -417,7 +419,7 @@
     <br>M. Mierzejewski, J. Wronowicz, J. Pawłowski, and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.107.045134" target="_blank">Phys. Rev. B <b>107</b>, 045134 (2023)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2206.05960" target="_blank">arXiv: cond-mat/2206.05960</a>
    </p>
-   <p class="nawa2019" style="background: #f5f5f5;">
+   <p class="nawa2019">
     (42) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>From dissipationless to normal diffusion in easy-axis Heisenberg spin chain</b>
     <br>P. Prelovšek, S. Nandy, Z. Lenarčič, M. Mierzejewski, and <u>J. Herbrych</u>
@@ -429,7 +431,7 @@
     <br>M. Mierzejewski, J. Pawłowski, P. Prelovšek, and <u>J. Herbrych</u>
     <br><a href="https://scipost.org/SciPostPhys.13.2.013" target="_blank">SciPost Phys. <b>13</b>, 013 (2022)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2112.08158" target="_blank">arXiv: cond-mat/2112.08158</a>
    </p>
-   <p class="nawa2019" style="background: #f5f5f5;">
+   <p class="nawa2019">
     (40) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>High-pressure inelastic neutron scattering study of the S=1 spin chain [Ni(HF<sub>2</sub>)(3-Clpyridine)<sub>4</sub>]BF<sub>4</sub></b>
     <br>D. M. Pajerowski, A. P. Podlesnyak, <u>J. Herbrych</u>, and J. Manson
@@ -441,7 +443,7 @@
     <br><u>J. Herbrych</u>, M. Mierzejewski, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.105.L081105" target="_blank">Phys. Rev. B <b>105</b>, L081105 (2022)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2110.15635" target="_blank">arXiv: cond-mat/2110.15635</a>
    </p>
-   <p class="nawa2019 ncn2020" style="background: #f5f5f5;">
+   <p class="nawa2019 ncn2020">
     (38) <img src="files/svg/nawa2019.svg" style="height:11px;" alt=""><img src="files/svg/ncn2020.svg" style="height:11px;" alt="">
     <b>Prediction of orbital selective Mott phases and block magnetic states in the quasi-one-dimensional iron chain Ce<sub>2</sub>O<sub>2</sub>FeSe<sub>2</sub> under hole and electron doping</b>
     <br>L.-F. Lin, Y. Zhang, G. Alvarez, <u>J. Herbrych</u>, A. Moreo, and E. Dagotto
@@ -453,7 +455,7 @@
     <br>N. Kaushal, <u>J. Herbrych</u>, G. Alvarez, and E. Dagotto
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.104.235135" target="_blank">Phys. Rev. B <b>104</b>, 235135 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2110.11828" target="_blank">arXiv: cond-mat/2110.11828</a>
    </p>
-   <p class="nawa2019" style="background: #f5f5f5;">
+   <p class="nawa2019">
     (36) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Coexistence of diffusive and ballistic transport in integrable quantum lattice models</b>
     <br>P. Prelovšek, M. Mierzejewski, and <u>J. Herbrych</u>
@@ -465,7 +467,7 @@
     <br>M. Środa, E. Dagotto, and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.104.045128" target="_blank">Phys. Rev. B <b>104</b>, 045128 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2105.04391" target="_blank">arXiv: cond-mat/2105.04391</a>
    </p>
-   <p class="nawa2019" style="background: #f5f5f5;">
+   <p class="nawa2019">
     (34) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Diffusion in the Anderson model in higher dimensions</b>
     <br>P. Prelovšek and <u>J. Herbrych</u>
@@ -477,7 +479,7 @@
     <br>M. Mierzejewski, <u>J. Herbrych</u>, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.103.235115" target="_blank">Phys. Rev. B <b>103</b>, 235115 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2102.07467" target="_blank">arXiv: cond-mat/2102.07467</a>
    </p>
-   <p class="nawa2019 ncn2020" style="background: #f5f5f5;">
+   <p class="nawa2019 ncn2020">
     (32) <img src="files/svg/nawa2019.svg" style="height:11px;" alt=""><img src="files/svg/ncn2020.svg" style="height:11px;" alt="">
     <b>Interaction-induced topological phase transition and Majorana edge states in low-dimensional orbital-selective Mott insulators</b>
     <br><u>J. Herbrych</u>, M. Środa, G. Alvarez, M. Mierzejewski, and E. Dagotto
@@ -489,7 +491,7 @@
     <br>M. Mierzejewski, M. Środa, <u>J. Herbrych</u>, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.102.161111" target="_blank">Phys. Rev. B <b>102</b>, 161111(R) (2020)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2003.00495" target="_blank">arXiv: cond-mat/2003.00495</a>
    </p>
-   <p class="nawa2019" style="background: #f5f5f5;">
+   <p class="nawa2019">
     (30) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Block orbital-selective Mott insulators: a spin excitation analysis</b>
     <br><u>J. Herbrych</u>, G. Alvarez, A. Moreo, and E. Dagotto
@@ -501,7 +503,7 @@
     <br>B. Pandey, L.-F. Lin, R. Soni, N. Kaushal, <u>J. Herbrych</u>, G. Alvarez, and E. Dagotto
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.102.035149" target="_blank">Phys. Rev. B <b>102</b>, 035149 (2020)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/2005.13132" target="_blank">arXiv: cond-mat/2005.13132</a>
    </p>
-   <p class="nawa2019" style="background: #f5f5f5;">
+   <p class="nawa2019">
     (28) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Block-spiral magnetism: An exotic type of frustrated order</b>
     <br><u>J. Herbrych</u>, J. Heverhagen, G. Alvarez, M. Daghofer, A. Moreo, and E. Dagotto
@@ -513,7 +515,7 @@
     <br>P. Prelovšek, K. Morita, T. Tohyama, and <u>J. Herbrych</u>
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevResearch.2.023024" target="_blank">Phys. Rev. Research <b>2</b>, 023024 (2020)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1912.00876" target="_blank">arXiv: cond-mat/1912.00876</a>
    </p>
-   <p class="nawa2019" style="background: #f5f5f5;">
+   <p class="nawa2019">
     (26) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Inelastic neutron scattering study of the anisotropic S=1 spin chain [Ni(HF<sub>2</sub>)(3-Clpyridine)<sub>4</sub>]BF<sub>4</sub></b>
     <br>D. M. Pajerowski, J. L. Manson, <u>J. Herbrych</u>, J. Bendix, A. P. Podlesnyak, J. M. Cain, and M. W. Meisel
@@ -525,7 +527,7 @@
     <br>J. Stolpp, <u>J. Herbrych</u>, F. Dorfner, E. Dagotto, and F. Heidrich-Meisner
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.101.035134" target="_blank">Phys. Rev. B <b>101</b>, 035134 (2020)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1911.01718" target="_blank">arXiv: cond-mat/1911.01718</a>
    </p>
-   <p class="nawa2019" style="background: #f5f5f5;">
+   <p class="nawa2019">
     (24) <img src="files/svg/nawa2019.svg" style="height:11px;" alt="">
     <b>Novel magnetic block states in low-dimensional iron-based superconductors</b>
     <br><u>J. Herbrych</u>, J. Heverhagen, N. D. Patel, G. Alvarez, M. Daghofer, A. Moreo, and E. Dagotto
@@ -537,7 +539,7 @@
     <br>J. Richter, F. Jin, L. Knipschild, <u>J. Herbrych</u>, H. De Raedt, K. Michielsen, J. Gemmer, and R. Steinigeweg
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.99.144422" target="_blank">Phys. Rev. B <b>99</b>, 144422 (2019)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1811.02806" target="_blank">arXiv: cond-mat/1811.02806</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (22) 
     <b>Sudden removal of a static force in a disordered system: Induced dynamics, thermalization, and transport</b>
     <br>J. Richter, <u>J. Herbrych</u>, and R. Steinigeweg
@@ -549,7 +551,7 @@
     <br>S. Scherg, T. Kohlert, <u>J. Herbrych</u>, J. Stolpp, P. Bordia, U. Schneider, F. Heidrich-Meisner, I. Bloch, and M. Aidelsburger
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevLett.121.130402" target="_blank">Phys. Rev. Lett. <b>121</b>, 130402 (2018)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1805.10990" target="_blank">arXiv: cond-mat/1805.10990</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (20) 
     <b>Spin dynamics of the block orbital-selective Mott phase</b>
     <br><u>J. Herbrych</u>, N. Kaushal, A. Nocera, G. Alvarez, A. Moreo, and E. Dagotto 
@@ -561,7 +563,7 @@
     <br>N. Kaushal, <u>J. Herbrych</u>, A. Nocera, G. Alvarez, A. Moreo, F. A. Reboredo, and E. Dagotto 
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.96.155111" target="_blank">Phys. Rev. B <b>96</b>, 155111 (2017)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1707.04313" target="_blank">arXiv: cond-mat/1707.04313</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (18) 
     <b>Efficiency of fermionic quantum distillation</b>
     <br><u>J. Herbrych</u>, A. E. Feiguin, E. Dagotto, and F. Heidrich-Meisner
@@ -573,7 +575,7 @@
     <br>C. B. Bishop, <u>J. Herbrych</u>, E. Dagotto, and A. Moreo
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.96.035144" target="_blank">Phys. Rev. B <b>96</b>, 035144 (2017)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1704.03495" target="_blank">arXiv: cond-mat/1704.03495</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (16) 
     <b>Self-consistent approach to many-body localization and subdiffusion</b>
     <br>P. Prelovšek and <u>J. Herbrych</u>
@@ -585,7 +587,7 @@
     <br><u>J. Herbrych</u>, A. G. Chazirakis, N. Christakis, and J. J. P. Veerman
     <br><a href="https://link.springer.com/article/10.1007/s12591-017-0377-3" target="_blank">Differ. Equ. & Dyn. Syst. <b>29</b>, 487 (2021)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1506.07381" target="_blank">arXiv: math/1506.07381</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (14) 
     <b>Density correlations and transport in models of many-body localization</b>
     <br>P. Prelovšek, M. Mierzejewski, O. Barišić, and <u>J. Herbrych</u>
@@ -597,7 +599,7 @@
     <br>D. Schmidtke, R. Steinigeweg, <u>J. Herbrych</u>, and J. Gemmer
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.95.134201" target="_blank">Phys. Rev. B <b>95</b>, 134201 (2017)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1607.05664" target="_blank">arXiv: cond-mat/1607.05664</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (12) 
     <b>Effective realization of random magnetic fields in compounds with large single-ion anisotropy</b>
     <br><u>J. Herbrych</u> and J. Kokalj
@@ -609,7 +611,7 @@
     <br>M. Mierzejewski, <u>J. Herbrych</u>, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.94.224207" target="_blank">Phys. Rev. B <b>94</b>, 224207 (2016)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1607.04992" target="_blank">arXiv: cond-mat/1607.04992</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (10) 
     <b>Typicality approach to the optical conductivity in thermal and many-body localized phases</b>
     <br>R. Steinigeweg, <u>J. Herbrych</u>, F. Pollmann, and W. Brenig
@@ -621,7 +623,7 @@
     <br><u>J. Herbrych</u> and X. Zotos
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.93.134412" target="_blank">Phys. Rev. B <b>93</b>, 134412 (2016)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1505.03004" target="_blank">arXiv: cond-mat/1505.03004</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (8) 
     <b>Heat conductivity of the Heisenberg spin-1/2 ladder: From weak to strong breaking of integrability</b>
     <br>R. Steinigeweg, <u>J. Herbrych</u>, X. Zotos, and W. Brenig
@@ -633,7 +635,7 @@
     <br>J. Kokalj, <u>J. Herbrych</u>, A. Zheludev, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.91.155147" target="_blank">Phys. Rev. B <b>91</b>, 155147 (2015)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1409.1757" target="_blank">arXiv: cond-mat/1409.1757</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (6) 
     <b>Effective S=1/2 description of the S=1 chain with strong easy plane anisotropy</b>
     <br>C. Psaroudaki, <u>J. Herbrych</u>, J. Karadamoglou, P. Prelovšek, X. Zotos, and N. Papanicolaou
@@ -645,7 +647,7 @@
     <br><u>J. Herbrych</u>, J. Kokalj, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevLett.111.147203" target="_blank">Phys. Rev. Lett. <b>111</b>, 147203 (2013)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1307.0370" target="_blank">arXiv: cond-mat/1307.0370</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (4) 
     <b>Eigenstate thermalization within isolated spin-chain systems</b>
     <br>R. Steinigeweg, <u>J. Herbrych</u>, and P. Prelovšek
@@ -657,7 +659,7 @@
     <br><u>J. Herbrych</u>, R. Steinigeweg, and P. Prelovšek
     <br><a href="http://link.aps.org/doi/10.1103/PhysRevB.86.115106" target="_blank">Phys. Rev. B <b>86</b>, 115106 (2012)</a>&emsp;& &emsp;<a href="http://arxiv.org/abs/1206.4248" target="_blank">arXiv: cond-mat/1206.4248</a>
    </p>
-   <p class="allpub" style="background: #f5f5f5;">
+   <p class="allpub">
     (2) 
     <b>Coexistence of anomalous and normal diffusion in integrable Mott insulators</b>
     <br>R. Steinigeweg, <u>J. Herbrych</u>, P. Prelovšek, and M. Mierzejewski
@@ -678,149 +680,6 @@
   <span>Wrocław University of Science and Technology</span>
   <span>Last update: <span id="last-update"></span></span>
 </div> <!-- footer -->
-<!------------------------------------------------------------------->
-<script>
- const myDate = new Date(document.lastModified);
- const myNewDate = new Intl.DateTimeFormat("de-AT", {
-   day: "numeric",
-   month: "numeric",
-   year: "numeric"
- }).format(myDate);
- document.getElementById("last-update").textContent = " " + myNewDate;
-</script>
-<!------------------------------------------------------------------->
- <script>
-  const header = document.getElementById("navigation");
-  const btns = header.getElementsByClassName("btn");
-  for (let i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function () {
-      const current = header.getElementsByClassName("active");
-      if (current.length > 0) {
-        current[0].classList.remove("active");
-      }
-      this.classList.add("active");
-    });
-  }
- </script>
-<!------------------------------------------------------------------->
- <script>
-  const scrollProgress = document.getElementById('scroll-progress');
-  function updateScrollProgress() {
-    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const progress = height > 0 ? (scrollTop / height) * 100 : 0;
-    scrollProgress.style.width = `${progress}%`;
-  }
-  window.addEventListener('scroll', updateScrollProgress);
-  window.addEventListener('resize', updateScrollProgress);
-  window.addEventListener('load', updateScrollProgress);
- </script>
-<!------------------------------------------------------------------->
- <script>
-  var vall = document.getElementsByClassName("allpub");
-  var vnawa2019 = document.getElementsByClassName("nawa2019");
-  var vncn2020 = document.getElementsByClassName("ncn2020");
-  var vncn2024 = document.getElementsByClassName("ncn2024");
-  var vjsps2026 = document.getElementsByClassName("jsps2026");
-  var vheadallpub = document.getElementsByClassName("headallpub");
-  var vheadnawa2019 = document.getElementsByClassName("headnawa2019");
-  var vheadncn2020 = document.getElementsByClassName("headncn2020");
-  var vheadncn2024 = document.getElementsByClassName("headncn2024");
-  var vheadjsps2026= document.getElementsByClassName("headjsps2026");
-  function hideTag(tagName) {
-   for(let i=0;i<tagName.length;i++){
-    tagName[i].style.display = 'none'
-   } 
-  }
-  function showTag(tagName) {
-   for(let i=0;i<tagName.length;i++){
-    tagName[i].style.display = 'block'
-   } 
-  }
-  function allpub() {
-   showTag(vjsps2026)
-   showTag(vncn2024)
-   showTag(vncn2020)
-   showTag(vnawa2019)
-   showTag(vall)
-
-   hideTag(vheadjsps2026)
-   hideTag(vheadncn2024)
-   hideTag(vheadncn2020)
-   hideTag(vheadnawa2019)
-   showTag(vheadallpub)
-   updateScrollProgress();
-  }
-  function nawa2019() {
-   hideTag(vall)
-   hideTag(vjsps2026)
-   hideTag(vncn2024)
-   hideTag(vncn2020)
-   showTag(vnawa2019)
-
-   hideTag(vheadallpub)
-   hideTag(vheadjsps2026)
-   hideTag(vheadncn2024)
-   hideTag(vheadncn2020)
-   showTag(vheadnawa2019)
-   updateScrollProgress();
-  }
-  function ncn2020() {
-   hideTag(vall)
-   hideTag(vjsps2026)
-   hideTag(vncn2024)
-   hideTag(vnawa2019)
-   showTag(vncn2020)
-
-   hideTag(vheadallpub)
-   hideTag(vheadjsps2026)
-   hideTag(vheadncn2024)
-   hideTag(vheadnawa2019)
-   showTag(vheadncn2020)
-   updateScrollProgress();
-  }
-  function ncn2024() {
-   hideTag(vall)
-   hideTag(vjsps2026)
-   hideTag(vncn2020)
-   hideTag(vnawa2019)
-   showTag(vncn2024)
-
-   hideTag(vheadallpub)
-   hideTag(vheadjsps2026)
-   hideTag(vheadncn2020)
-   hideTag(vheadnawa2019)
-   showTag(vheadncn2024)
-   updateScrollProgress();
-  }
-  function jsps2026() {
-   hideTag(vall)
-   hideTag(vncn2024)
-   hideTag(vncn2020)
-   hideTag(vnawa2019)
-   showTag(vjsps2026)
-
-   hideTag(vheadallpub)
-   hideTag(vheadncn2024)
-   hideTag(vheadncn2020)
-   hideTag(vheadnawa2019)
-   showTag(vheadjsps2026)
-   updateScrollProgress();
-  }
- </script>
-<!------------------------------------------------------------------->
- <script>
- function showhidebut(){
-  var status = document.getElementById('pastlist').style.display;
-  if(status == 'none'){
-   document.getElementById('pastlist').style.display = 'block';
-  }else{
-   document.getElementById('pastlist').style.display = 'none';
-  }
-  document.querySelector('.past-toggle').setAttribute('aria-expanded', document.getElementById('pastlist').style.display !== 'none');
-  updateScrollProgress();
- }
- </script>
 <!------------------------------------------------------------------->
 </body>
 </html>
