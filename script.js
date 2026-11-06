@@ -1,13 +1,5 @@
 "use strict";
 
-const myDate = new Date(document.lastModified);
- const myNewDate = new Intl.DateTimeFormat("de-AT", {
-   day: "numeric",
-   month: "numeric",
-   year: "numeric"
- }).format(myDate);
- document.getElementById("last-update").textContent = " " + myNewDate;
-
 const navigationLinks = [
     ...document.querySelectorAll("#navigation .btn")
   ];
@@ -82,11 +74,13 @@ var vall = document.getElementsByClassName("allpub");
   var vncn2020 = document.getElementsByClassName("ncn2020");
   var vncn2024 = document.getElementsByClassName("ncn2024");
   var vjsps2026 = document.getElementsByClassName("jsps2026");
+  var vncn2026 = document.getElementsByClassName("ncn2026");
   var vheadallpub = document.getElementsByClassName("headallpub");
   var vheadnawa2019 = document.getElementsByClassName("headnawa2019");
   var vheadncn2020 = document.getElementsByClassName("headncn2020");
   var vheadncn2024 = document.getElementsByClassName("headncn2024");
   var vheadjsps2026= document.getElementsByClassName("headjsps2026");
+  var vheadncn2026 = document.getElementsByClassName("headncn2026");
   function hideTag(tagName) {
    for(let i=0;i<tagName.length;i++){
     tagName[i].style.display = 'none'
@@ -98,12 +92,14 @@ var vall = document.getElementsByClassName("allpub");
    } 
   }
   function allpub() {
+   showTag(vncn2026)
    showTag(vjsps2026)
    showTag(vncn2024)
    showTag(vncn2020)
    showTag(vnawa2019)
    showTag(vall)
 
+   hideTag(vheadncn2026)
    hideTag(vheadjsps2026)
    hideTag(vheadncn2024)
    hideTag(vheadncn2020)
@@ -113,12 +109,14 @@ var vall = document.getElementsByClassName("allpub");
   }
   function nawa2019() {
    hideTag(vall)
+   hideTag(vncn2026)
    hideTag(vjsps2026)
    hideTag(vncn2024)
    hideTag(vncn2020)
    showTag(vnawa2019)
 
    hideTag(vheadallpub)
+   hideTag(vheadncn2026)
    hideTag(vheadjsps2026)
    hideTag(vheadncn2024)
    hideTag(vheadncn2020)
@@ -127,12 +125,14 @@ var vall = document.getElementsByClassName("allpub");
   }
   function ncn2020() {
    hideTag(vall)
+   hideTag(vncn2026)
    hideTag(vjsps2026)
    hideTag(vncn2024)
    hideTag(vnawa2019)
    showTag(vncn2020)
 
    hideTag(vheadallpub)
+   hideTag(vheadncn2026)
    hideTag(vheadjsps2026)
    hideTag(vheadncn2024)
    hideTag(vheadnawa2019)
@@ -141,12 +141,14 @@ var vall = document.getElementsByClassName("allpub");
   }
   function ncn2024() {
    hideTag(vall)
+   hideTag(vncn2026)
    hideTag(vjsps2026)
    hideTag(vncn2020)
    hideTag(vnawa2019)
    showTag(vncn2024)
 
    hideTag(vheadallpub)
+   hideTag(vheadncn2026)
    hideTag(vheadjsps2026)
    hideTag(vheadncn2020)
    hideTag(vheadnawa2019)
@@ -155,16 +157,34 @@ var vall = document.getElementsByClassName("allpub");
   }
   function jsps2026() {
    hideTag(vall)
+   hideTag(vncn2026)
    hideTag(vncn2024)
    hideTag(vncn2020)
    hideTag(vnawa2019)
    showTag(vjsps2026)
 
    hideTag(vheadallpub)
+   hideTag(vheadncn2026)
    hideTag(vheadncn2024)
    hideTag(vheadncn2020)
    hideTag(vheadnawa2019)
    showTag(vheadjsps2026)
+   updateScrollProgress();
+  }
+  function ncn2026() {
+   hideTag(vall)
+   hideTag(vjsps2026)
+   hideTag(vncn2024)
+   hideTag(vncn2020)
+   hideTag(vnawa2019)
+   showTag(vncn2026)
+
+   hideTag(vheadallpub)
+   hideTag(vheadjsps2026)
+   hideTag(vheadncn2024)
+   hideTag(vheadncn2020)
+   hideTag(vheadnawa2019)
+   showTag(vheadncn2026)
    updateScrollProgress();
   }
 
@@ -182,7 +202,7 @@ function showhidebut(){
 // Alternate backgrounds across visible publications only.
 function updatePublicationStriping() {
   const publications = document.querySelectorAll(
-    "#nav-publications > p:is(.allpub, .nawa2019, .ncn2020, .ncn2024, .jsps2026)"
+    "#nav-publications > p:is(.allpub, .nawa2019, .ncn2020, .ncn2024, .jsps2026, .ncn2026)"
   );
 
   let visibleIndex = 0;
@@ -198,6 +218,7 @@ function updatePublicationStriping() {
 // Bind controls after parsing the document (the script uses defer).
 const publicationFilters = {
   all: allpub,
+  ncn2026,
   jsps2026,
   ncn2024,
   ncn2020,
